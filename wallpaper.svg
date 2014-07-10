@@ -16,10 +16,11 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="mattari09.svg"
+   sodipodi:docname="mattari098.svg.2012_08_09_22_57_47.0.svg"
    inkscape:export-filename="C:\Program Files\mattari09\wallpaper.png"
    inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-ydpi="90"
+   enable-background="new">
   <defs
      id="defs4">
     <linearGradient
@@ -53,11 +54,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7936"
-     inkscape:cx="342.18387"
-     inkscape:cy="312.5"
+     inkscape:zoom="1"
+     inkscape:cx="545.65674"
+     inkscape:cy="220.56141"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      inkscape:window-width="1019"
      inkscape:window-height="719"
@@ -80,7 +81,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -104,7 +105,19 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="text"
-     sodipodi:insensitive="true">
+     style="opacity:0.5">
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;font-family:MS PMincho;-inkscape-font-specification:MS PMincho;opacity:0.50000000000000000"
+       x="541.52142"
+       y="616.52142"
+       id="text3017"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3019"
+         x="541.52142"
+         y="616.52142"
+         style="font-size:20px;font-weight:bold;fill:#000000;fill-opacity:1;stroke:#000000;-inkscape-font-specification:MS PMincho Bold">まったり麻雀 0.9.8</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:MS PMincho;-inkscape-font-specification:MS PMincho"
@@ -116,6 +129,18 @@
          id="tspan3776"
          x="541.21979"
          y="616.21979"
-         style="font-size:20px;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:MS PMincho Bold">まったり麻雀 0.9.7</tspan></text>
+         style="font-size:20px;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:MS PMincho Bold">まったり麻雀 0.9.8</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3013"
+       y="616.21979"
+       x="541.21979"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:MS PMincho;-inkscape-font-specification:MS PMincho"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:MS PMincho Bold"
+         y="616.21979"
+         x="541.21979"
+         id="tspan3015"
+         sodipodi:role="line">まったり麻雀 0.9.8</tspan></text>
   </g>
 </svg>
