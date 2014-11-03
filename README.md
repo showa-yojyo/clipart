@@ -4,17 +4,17 @@
 What's This
 -----------
 
-There is just one file, wallpaper.svg, in the repository.
-This SVG file is file to export a bitmap file as a customized table cover image for [まったり麻雀][1]
+In this repository, there is just one file, `wallpaper.svg`.
+This SVG file is used for a customized table cover image for [まったり麻雀][1].
 
 Installation
 ------------
 
-1. Open wallpaper.svg with [Inkscape][2] (and edit it if you want).
+1. Open `wallpaper.svg` with [Inkscape][2] (and edit it if you want).
 2. Export the image to PNG format file.
 3. Convert the file to BMP format.
-4. Rename the BMP file to wallpaper.bmp.
-5. Put wallpaper.bmp to the install folder of [まったり麻雀][1].
+4. Rename the BMP file to `wallpaper.bmp`.
+5. Put `wallpaper.bmp` to the install folder of [まったり麻雀][1].
 
 (We plan to automate the process 2-5.)
 
