@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="468"
@@ -15,43 +14,13 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r"
-   sodipodi:docname="logol.svg">
+   sodipodi:docname="logol.svg"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <title
      id="title6607">プレハブ小屋ロゴ大</title>
   <defs
-     id="defs4">
-    <linearGradient
-       id="linearGradient3686">
-      <stop
-         style="stop-color:#ff1493;stop-opacity:1;"
-         offset="0"
-         id="stop3688" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="1"
-         id="stop3690" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3686"
-       id="linearGradient3694"
-       x1="59.566158"
-       y1="-845.20935"
-       x2="59.566158"
-       y2="-824.00183"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.2083105,0,0,3.2083101,-191.10675,3837.0368)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3686"
-       id="linearGradient5341"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.2083105,0,0,3.2083101,-190.7513,3917.0282)"
-       x1="59.566158"
-       y1="-845.20935"
-       x2="59.566158"
-       y2="-824.00183" />
-  </defs>
+     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -60,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.6388888"
-     inkscape:cx="180.37895"
+     inkscape:cx="246.88062"
      inkscape:cy="30.000001"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -121,7 +90,7 @@
      transform="translate(0,-992.3622)">
     <text
        xml:space="preserve"
-       style="font-size:69.12028503px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient3694);fill-opacity:1;stroke:none;font-family:HakusyuInsoutai_kk;-inkscape-font-specification:HakusyuInsoutai_kk"
+       style="font-size:69.12028503000001900px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ff1493;fill-opacity:1;stroke:none;font-family:HakusyuInsoutai_kk;-inkscape-font-specification:HakusyuInsoutai_kk"
        x="-0.87750351"
        y="1183.9337"
        id="text2902"
@@ -133,6 +102,6 @@
          id="tspan2904"
          x="-0.87750351"
          y="1183.9337"
-         style="fill:url(#linearGradient3694);fill-opacity:1">プレハブ小屋</tspan></text>
+         style="fill:#ff1493;fill-opacity:1">プレハブ小屋</tspan></text>
   </g>
 </svg>
