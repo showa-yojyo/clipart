@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="701"
+   height="625"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="mattari-0.9.11.svg"
+   inkscape:export-filename="D:\Temp\wallpaper.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   enable-background="new">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3757"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#008000;stop-opacity:1;"
+         offset="0"
+         id="stop3759" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3761" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3757"
+       id="radialGradient3771"
+       cx="350.5"
+       cy="739.86218"
+       fx="350.5"
+       fy="739.86218"
+       r="348"
+       gradientTransform="matrix(2.2112068,2.8810516e-8,-2.8735631e-8,2.2054594,-424.52795,-891.87398)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="filter6009"
+       inkscape:menu-tooltip="Same as HSL Bumps but with transparent highlights"
+       inkscape:menu="Image effects, transparent"
+       inkscape:label="HSL Bumps alpha"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur6011"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="0.5" />
+      <feColorMatrix
+         id="feColorMatrix6013"
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 4.4 -2.9 "
+         in="result0"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         id="feGaussianBlur6015"
+         stdDeviation="0.7"
+         in="fbSourceGraphicAlpha"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting6017"
+         in="result0"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="-2"
+         specularConstant="1.5"
+         specularExponent="10">
+        <feDistantLight
+           id="feDistantLight6019"
+           elevation="50"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite6021"
+         in2="result1"
+         result="result4"
+         operator="in"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite6023"
+         in2="result4"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+    </filter>
+    <filter
+       id="filter6025"
+       inkscape:menu-tooltip="Same as HSL Bumps but with transparent highlights"
+       inkscape:menu="Image effects, transparent"
+       inkscape:label="HSL Bumps alpha"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur6027"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="0.5" />
+      <feColorMatrix
+         id="feColorMatrix6029"
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 4.4 -2.9 "
+         in="result0"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         id="feGaussianBlur6031"
+         stdDeviation="0.7"
+         in="fbSourceGraphicAlpha"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting6033"
+         in="result0"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="-2"
+         specularConstant="1.5"
+         specularExponent="10">
+        <feDistantLight
+           id="feDistantLight6035"
+           elevation="50"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite6037"
+         in2="result1"
+         result="result4"
+         operator="in"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite6039"
+         in2="result4"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+    </filter>
+    <filter
+       id="filter6041"
+       inkscape:menu-tooltip="Same as HSL Bumps but with transparent highlights"
+       inkscape:menu="Image effects, transparent"
+       inkscape:label="HSL Bumps alpha"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur6043"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="0.5" />
+      <feColorMatrix
+         id="feColorMatrix6045"
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 4.4 -2.9 "
+         in="result0"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         id="feGaussianBlur6047"
+         stdDeviation="0.7"
+         in="fbSourceGraphicAlpha"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting6049"
+         in="result0"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="-2"
+         specularConstant="1.5"
+         specularExponent="10">
+        <feDistantLight
+           id="feDistantLight6051"
+           elevation="50"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite6053"
+         in2="result1"
+         result="result4"
+         operator="in"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite6055"
+         in2="result4"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+    </filter>
+    <filter
+       id="filter6057"
+       inkscape:menu-tooltip="Same as HSL Bumps but with transparent highlights"
+       inkscape:menu="Image effects, transparent"
+       inkscape:label="HSL Bumps alpha"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur6059"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="0.5" />
+      <feColorMatrix
+         id="feColorMatrix6061"
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 4.4 -2.9 "
+         in="result0"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         id="feGaussianBlur6063"
+         stdDeviation="0.7"
+         in="fbSourceGraphicAlpha"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting6065"
+         in="result0"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="-2"
+         specularConstant="1.5"
+         specularExponent="10">
+        <feDistantLight
+           id="feDistantLight6067"
+           elevation="50"
+           azimuth="235" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite6069"
+         in2="result1"
+         result="result4"
+         operator="in"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite6071"
+         in2="result4"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.99999999"
+     inkscape:cx="505.94197"
+     inkscape:cy="313.30959"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-4"
+     inkscape:window-y="48"
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox="false"
+     inkscape:object-paths="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="work"
+     style="opacity:0.27741939;display:none"
+     sodipodi:insensitive="true">
+    <image
+       y="0"
+       x="0"
+       id="image3004"
+       xlink:href="file:///D:/Dropbox/Public/mattari.png"
+       height="625"
+       width="701" />
+  </g>
+  <g
+     inkscape:label="table"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-427.36218)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="color:#000000;fill:url(#radialGradient3771);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2987"
+       width="701"
+       height="625"
+       x="0"
+       y="427.36218"
+       inkscape:export-filename="C:\Program Files\mattari09\wallpaper.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="detail"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#16502d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 440,317.75 c 0.33906,-0.0489 0.69877,-0.0257 1.03125,-0.0937 1.13921,-0.23312 2.23441,-0.58848 3.28125,-1.03125 1.04684,-0.44277 2.03774,-0.99602 2.96875,-1.625 0.93101,-0.62898 1.80203,-1.33328 2.59375,-2.125 0.79172,-0.79172 1.49602,-1.66274 2.125,-2.59375 0.62898,-0.93101 1.18223,-1.92191 1.625,-2.96875 0.44277,-1.04684 0.79813,-2.14204 1.03125,-3.28125 C 454.88937,302.89204 455,301.70812 455,300.5 c 0,-1.20812 -0.11063,-2.39204 -0.34375,-3.53125 -0.23312,-1.13921 -0.58848,-2.23441 -1.03125,-3.28125 -0.44277,-1.04684 -0.99602,-2.03774 -1.625,-2.96875 -0.62898,-0.93101 -1.33328,-1.80203 -2.125,-2.59375 -0.79172,-0.79172 -1.66274,-1.49602 -2.59375,-2.125 -0.93101,-0.62898 -1.92191,-1.18223 -2.96875,-1.625 -1.04684,-0.44277 -2.14204,-0.79813 -3.28125,-1.03125 -0.33248,-0.068 -0.69219,-0.0449 -1.03125,-0.0937 l 0,5.75 0,18 0,10.75 z"
+       id="path4119"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#16502d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6057)"
+       d="m 510,157 -70,70 0,56.25 c 0.33906,0.0489 0.69877,0.0257 1.03125,0.0937 1.13921,0.23312 2.23441,0.58848 3.28125,1.03125 1.04684,0.44277 2.03774,0.99602 2.96875,1.625 0.93101,0.62898 1.80203,1.33328 2.59375,2.125 0.79172,0.79172 1.49602,1.66274 2.125,2.59375 0.62898,0.93101 1.18223,1.92191 1.625,2.96875 0.44277,1.04684 0.79813,2.14204 1.03125,3.28125 0.23312,1.13921 0.34375,2.32313 0.34375,3.53125 0,1.20812 -0.11063,2.39204 -0.34375,3.53125 -0.23312,1.13921 -0.58848,2.23441 -1.03125,3.28125 -0.44277,1.04684 -0.99602,2.03774 -1.625,2.96875 -0.62898,0.93101 -1.33328,1.80203 -2.125,2.59375 -0.79172,0.79172 -1.66274,1.49602 -2.59375,2.125 -0.93101,0.62898 -1.92191,1.18223 -2.96875,1.625 -1.04684,0.44277 -2.14204,0.79813 -3.28125,1.03125 -0.33248,0.068 -0.69219,0.0449 -1.03125,0.0937 l 0,51.25 70,70 10,0 0,-132 0,-18 0,-132 -10,0 z"
+       id="path3874"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3879"
+       d="m 180,439 70,-70 0,-62 0,-18 0,-64 -70,-70 -10,0 0,134 0,18 0,132 z"
+       style="fill:none;stroke:#16502d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6009)"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       id="path3881"
+       d="m 510,440 -70,-70 -62,0 -64,0 -64,0 -70,70 0,10 134,0 64,0 132,0 z"
+       style="fill:none;stroke:#16502d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6025)"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#16502d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6041)"
+       d="m 510,156 -70,70 -62,0 -64,0 -62,0 -70,-70 0,-10 132,0 64,0 132,0 z"
+       id="path3883" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="text"
+     style="opacity:0.5;display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.8;fill:#000000;fill-opacity:1;stroke:#000000;font-family:MS PMincho;-inkscape-font-specification:MS PMincho"
+       x="530.63763"
+       y="617.10736"
+       id="text3017"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3019"
+         x="530.63763"
+         y="617.10736"
+         style="font-size:20px;font-weight:bold;fill:#000000;fill-opacity:1;stroke:#000000;-inkscape-font-specification:MS PMincho Bold">まったり麻雀 0.9.11</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:MS PMincho;-inkscape-font-specification:MS PMincho"
+       x="529.21979"
+       y="616.21979"
+       id="text3774"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3776"
+         x="529.21979"
+         y="616.21979"
+         style="font-size:20px;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:MS PMincho Bold">まったり麻雀 0.9.11</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3013"
+       y="616.21979"
+       x="529.21979"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:MS PMincho;-inkscape-font-specification:MS PMincho"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:MS PMincho Bold"
+         y="616.21979"
+         x="529.21979"
+         id="tspan3015"
+         sodipodi:role="line">まったり麻雀 0.9.11</tspan></text>
+  </g>
+</svg>
