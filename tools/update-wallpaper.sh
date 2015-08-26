@@ -25,7 +25,7 @@ DEST_PNG="$(cygpath -aw $(mktemp --suffix=.png))"
 sleep 3s
 
 # Convert PNG to BMP by using ImageMagick's converter tool.
-convert "$DEST_PNG" -type truecolor "$DEST_BMP"
+convert "$DEST_PNG" bmp3:"$DEST_BMP"
 
 # Clean up.
 rm -f "$DEST_PNG"
