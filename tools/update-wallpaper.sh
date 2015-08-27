@@ -6,6 +6,15 @@
 # - Inkscape
 # - ImageMagick
 #
+# To test this script, follow the next instructions:
+#
+# 1. Edit and save `mattari-wallpaper.svg` (with Inkscape).
+# 2. Make sure that all paths (e.g. LOCAL_ROOT) defined in this script
+#    are correct.
+# 3. Run this script.
+# 4. Execute `まったり麻雀.exe` and start a game to see if the wallpaper
+#    is the same as you saved in 1.
+#
 # Note that this script is just for me (@showa_yojyo).
 
 # Windows style path
