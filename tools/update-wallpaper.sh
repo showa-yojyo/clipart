@@ -24,7 +24,7 @@ SOURCE_SVG="$LOCAL_ROOT\svg\mattari-wallpaper.svg"
 DEST_BMP="$MATTARI_ROOT\wallpaper.bmp"
 
 # Cygwin style path
-INKSCAPE='/cygdrive/d/Program Files/inkscape-0.48.5/inkscape-0.48.5.exe'
+INKSCAPE='/cygdrive/d/Program Files/Inkscape/inkscape.exe'
 
 # Invoke Inkscape to generate a PNG file from the SVG file.
 DEST_PNG="$(cygpath -aw $(mktemp --suffix=.png))"
