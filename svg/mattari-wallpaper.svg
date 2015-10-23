@@ -469,7 +469,7 @@
          id="tspan3776"
          x="529.21979"
          y="616.21979"
-         style="font-size:20px;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:MS PMincho Bold">まったり麻雀 0.9.11</tspan></text>
+         style="font-size:20px;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:MS PMincho Bold">まったり麻雀 {{ VERSION }}</tspan></text>
     <text
        sodipodi:linespacing="100%"
        id="text-version"
@@ -482,6 +482,6 @@
          y="616.21979"
          x="529.21979"
          id="tspan3015"
-         sodipodi:role="line">まったり麻雀 0.9.11</tspan></text>
+         sodipodi:role="line">まったり麻雀 {{ VERSION }}</tspan></text>
   </g>
 </svg>

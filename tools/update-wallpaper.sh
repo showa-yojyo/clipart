@@ -17,6 +17,15 @@
 #
 # Note that this script is just for me (@showa_yojyo).
 
+if [ -z "$1" ]; then
+    echo "Usage: `basename $0` current_version"
+    exit 1
+fi
+
+# Current version of まったり麻雀
+#VERSION=${1-'0.9.12'}
+VERSION=${1}
+
 # Windows style path
 LOCAL_ROOT="D:\home\yojyo\devel\sketchbook"
 MATTARI_ROOT="D:\Program Files\mattari09"
@@ -26,9 +35,12 @@ DEST_BMP="$MATTARI_ROOT\wallpaper.bmp"
 # Cygwin style path
 INKSCAPE='/cygdrive/d/Program Files/Inkscape/inkscape.exe'
 
+WORKING_SVG="$(cygpath -aw $(mktemp --suffix=.svg))"
+sed -e "s/{{ VERSION }}/$VERSION/g" "$SOURCE_SVG" > "$WORKING_SVG"
+
 # Invoke Inkscape to generate a PNG file from the SVG file.
 DEST_PNG="$(cygpath -aw $(mktemp --suffix=.png))"
-"$INKSCAPE" --file="$SOURCE_SVG" --export-area-page --export-png="$DEST_PNG"
+"$INKSCAPE" --file="$WORKING_SVG" --export-area-page --export-png="$DEST_PNG"
 
 # XXX
 sleep 3s
@@ -37,4 +49,4 @@ sleep 3s
 convert "$DEST_PNG" bmp3:"$DEST_BMP"
 
 # Clean up.
-rm -f "$DEST_PNG"
+rm -f "$WORKING_SVG" "$DEST_PNG"
