@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1500"
+   height="500"
+   id="svg"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="twitter-profile-banner-rainbow.svg"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   style="enable-background:new"
+   viewBox="0 0 1500 500">
+  <defs
+     id="defs">
+    <linearGradient
+       inkscape:collect="always"
+       id="linear-rainbow">
+      <stop
+         id="stop-rainbow-00"
+         offset="0.0"
+         style="stop-color:#ff0000;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-01"
+         offset="0.0625"
+         style="stop-color:#ff6000;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-02"
+         offset="0.125"
+         style="stop-color:#ffbf00;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-03"
+         offset="0.1875"
+         style="stop-color:#dfff00;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-04"
+         offset="0.25"
+         style="stop-color:#80ff00;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-05"
+         offset="0.3125"
+         style="stop-color:#20ff00;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-06"
+         offset="0.375"
+         style="stop-color:#00ff40;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-07"
+         offset="0.4375"
+         style="stop-color:#00ff9f;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-08"
+         offset="0.5"
+         style="stop-color:#00ffff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-09"
+         offset="0.5625"
+         style="stop-color:#009fff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-10"
+         offset="0.625"
+         style="stop-color:#0040ff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-11"
+         offset="0.6875"
+         style="stop-color:#2000ff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-12"
+         offset="0.75"
+         style="stop-color:#8000ff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-13"
+         offset="0.8125"
+         style="stop-color:#df00ff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-14"
+         offset="0.875"
+         style="stop-color:#ff00bf;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-15"
+         offset="0.9375"
+         style="stop-color:#ff0060;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-16"
+         offset="1"
+         style="stop-color:#ff0000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linear-rainbow"
+       id="linearGradient4695"
+       x1="0"
+       y1="250"
+       x2="1500"
+       y2="250"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="759.77541"
+     inkscape:cy="254.67611"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="684"
+     inkscape:window-x="-8"
+     inkscape:window-y="53"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-page="false"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="guide"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-552.36217)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ff1493;fill-opacity:1;fill-rule:evenodd;stroke:#0000fc;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="visible-stage"
+       width="1500"
+       height="500"
+       x="0"
+       y="552.36218"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="invisible-top-area"
+       width="1500"
+       height="50"
+       x="0"
+       y="0"
+       transform="translate(0,552.36217)" />
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="invisible-bottom-area"
+       width="1500"
+       height="50"
+       x="0.5"
+       y="1001.8622" />
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;stroke:#0000ff;stroke-width:0.99792314;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99465212;marker:none;enable-background:accumulate"
+       id="profile-image-area"
+       width="200"
+       height="200"
+       x="100.49896"
+       y="851.86322"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="working">
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient4695);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4687"
+       width="1500"
+       height="500"
+       x="0"
+       y="0" />
+  </g>
+</svg>
