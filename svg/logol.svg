@@ -7,20 +7,103 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="468"
    height="60"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="logol.svg"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <title
-     id="title6607">プレハブ小屋ロゴ大</title>
+     id="title">プレハブ小屋ロゴ大</title>
   <defs
-     id="defs4" />
+     id="defs">
+    <linearGradient
+       inkscape:collect="always"
+       id="linear-rainbow">
+      <stop
+         id="stop-rainbow-00"
+         offset="0.0"
+         style="stop-color:#ff0000;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-01"
+         offset="0.0625"
+         style="stop-color:#ff6000;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-02"
+         offset="0.125"
+         style="stop-color:#ffbf00;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-03"
+         offset="0.1875"
+         style="stop-color:#dfff00;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-04"
+         offset="0.25"
+         style="stop-color:#80ff00;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-05"
+         offset="0.3125"
+         style="stop-color:#20ff00;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-06"
+         offset="0.375"
+         style="stop-color:#00ff40;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-07"
+         offset="0.4375"
+         style="stop-color:#00ff9f;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-08"
+         offset="0.5"
+         style="stop-color:#00ffff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-09"
+         offset="0.5625"
+         style="stop-color:#009fff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-10"
+         offset="0.625"
+         style="stop-color:#0040ff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-11"
+         offset="0.6875"
+         style="stop-color:#2000ff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-12"
+         offset="0.75"
+         style="stop-color:#8000ff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-13"
+         offset="0.8125"
+         style="stop-color:#df00ff;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-14"
+         offset="0.875"
+         style="stop-color:#ff00bf;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-15"
+         offset="0.9375"
+         style="stop-color:#ff0060;stop-opacity:1" />
+      <stop
+         id="stop-rainbow-16"
+         offset="1"
+         style="stop-color:#ff0000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linear-rainbow"
+       id="linearGradient4143"
+       x1="412.69672"
+       y1="1125.3434"
+       x2="0"
+       y2="1193.3837"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -28,16 +111,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.6388888"
-     inkscape:cx="246.88062"
-     inkscape:cy="30.000001"
+     inkscape:zoom="1.3194444"
+     inkscape:cx="251.44872"
+     inkscape:cy="34.308217"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1366"
-     inkscape:window-height="697"
-     inkscape:window-x="-4"
-     inkscape:window-y="48"
+     inkscape:window-height="684"
+     inkscape:window-x="-8"
+     inkscape:window-y="53"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -47,14 +130,14 @@
      inkscape:snap-to-guides="false">
     <inkscape:grid
        type="xygrid"
-       id="grid5387"
+       id="grid-cartesian"
        empspacing="5"
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <metadata
-     id="metadata7">
+     id="metadata">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -84,24 +167,24 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="レイヤー 1"
+     inkscape:label="working"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-992.3622)">
     <text
        xml:space="preserve"
-       style="font-size:69.12028503000001900px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ff1493;fill-opacity:1;stroke:none;font-family:HakusyuInsoutai_kk;-inkscape-font-specification:HakusyuInsoutai_kk"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.12028503px;line-height:100%;font-family:HakusyuInsoutai_kk;-inkscape-font-specification:HakusyuInsoutai_kk;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4143);fill-opacity:1;stroke:none"
        x="-0.87750351"
        y="1183.9337"
-       id="text2902"
+       id="logotype"
        sodipodi:linespacing="100%"
        transform="scale(1.1340047,0.88183055)"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         id="tspan2904"
+         id="tspan"
          x="-0.87750351"
          y="1183.9337"
-         style="fill:#ff1493;fill-opacity:1">プレハブ小屋</tspan></text>
+         style="fill:url(#linearGradient4143);fill-opacity:1">プレハブ小屋</tspan></text>
   </g>
 </svg>
