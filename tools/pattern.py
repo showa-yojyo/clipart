@@ -24,14 +24,12 @@ def configure():
 def main():
     """Create a wallpaper image from a PNG file."""
 
-    parser = configure()
-    args = parser.parse_args()
+    args = configure().parse_args()
 
     src = Image.open(args.file)
     target = swap_quadrants(src)
-    paste_with_alpha(target, src, (0, 0), 0x00)
+    paste_with_alpha(target, src, (0, 0), 0x10)
 
-    target.show()
     answer = input('pattern.py: Save this? [y/n] ')
     if answer.lower() != 'y':
         return
@@ -60,17 +58,16 @@ def paste_with_alpha(target, source, left_upper, opacity):
     target.paste(source, left_upper, mask=mask)
 
 def quarter_bbox(img):
-    """Quater the bounding box of an image."""
+    """Quarter the bounding box of an image."""
 
-    (left, upper, right, bottom) = img.getbbox()
-    xmid = (left + right - 1) // 2
-    ymid = (upper + bottom - 1) // 2
+    sx, sy = img.size
+    xmid, ymid = sx // 2, sy // 2
 
     return [
-        (left, upper, xmid, ymid),
-        (xmid + 1, upper, right, ymid),
-        (left, ymid + 1, xmid, bottom),
-        (xmid + 1, ymid + 1, right, bottom),]
+        (0, 0, xmid, ymid),
+        (xmid, 0, sx, ymid),
+        (0, ymid, xmid, sy),
+        (xmid, ymid, sx, sy),]
 
 if __name__ == '__main__':
     main()
