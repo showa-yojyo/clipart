@@ -31,67 +31,27 @@
          style="stop-color:#ff0000;stop-opacity:1" />
       <stop
          id="stop-rainbow-01"
-         offset="0.0625"
-         style="stop-color:#ff6000;stop-opacity:1" />
+         offset="0.16666666666666666"
+         style="stop-color:#ffff00;stop-opacity:1" />
       <stop
          id="stop-rainbow-02"
-         offset="0.125"
-         style="stop-color:#ffbf00;stop-opacity:1" />
+         offset="0.3333333333333333"
+         style="stop-color:#00ff00;stop-opacity:1" />
       <stop
          id="stop-rainbow-03"
-         offset="0.1875"
-         style="stop-color:#dfff00;stop-opacity:1" />
-      <stop
-         id="stop-rainbow-04"
-         offset="0.25"
-         style="stop-color:#80ff00;stop-opacity:1" />
-      <stop
-         id="stop-rainbow-05"
-         offset="0.3125"
-         style="stop-color:#20ff00;stop-opacity:1" />
-      <stop
-         id="stop-rainbow-06"
-         offset="0.375"
-         style="stop-color:#00ff40;stop-opacity:1" />
-      <stop
-         id="stop-rainbow-07"
-         offset="0.4375"
-         style="stop-color:#00ff9f;stop-opacity:1" />
-      <stop
-         id="stop-rainbow-08"
          offset="0.5"
          style="stop-color:#00ffff;stop-opacity:1" />
       <stop
-         id="stop-rainbow-09"
-         offset="0.5625"
-         style="stop-color:#009fff;stop-opacity:1" />
+         id="stop-rainbow-04"
+         offset="0.6666666666666666"
+         style="stop-color:#0000ff;stop-opacity:1" />
       <stop
-         id="stop-rainbow-10"
-         offset="0.625"
-         style="stop-color:#0040ff;stop-opacity:1" />
+         id="stop-rainbow-05"
+         offset="0.8333333333333333"
+         style="stop-color:#ff00ff;stop-opacity:1" />
       <stop
-         id="stop-rainbow-11"
-         offset="0.6875"
-         style="stop-color:#2000ff;stop-opacity:1" />
-      <stop
-         id="stop-rainbow-12"
-         offset="0.75"
-         style="stop-color:#8000ff;stop-opacity:1" />
-      <stop
-         id="stop-rainbow-13"
-         offset="0.8125"
-         style="stop-color:#df00ff;stop-opacity:1" />
-      <stop
-         id="stop-rainbow-14"
-         offset="0.875"
-         style="stop-color:#ff00bf;stop-opacity:1" />
-      <stop
-         id="stop-rainbow-15"
-         offset="0.9375"
-         style="stop-color:#ff0060;stop-opacity:1" />
-      <stop
-         id="stop-rainbow-16"
-         offset="1"
+         id="stop-rainbow-06"
+         offset="1.0"
          style="stop-color:#ff0000;stop-opacity:1" />
     </linearGradient>
     <linearGradient

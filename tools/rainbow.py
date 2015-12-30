@@ -13,7 +13,7 @@ from argparse import ArgumentParser
 from colorsys import hsv_to_rgb
 import numpy as np
 
-__version__ = '1.0.0'
+__version__ = '1.1.0'
 
 # Snippet template of nodes between <linearGradient> and </linearGradient>.
 stop_template = '''\
@@ -35,8 +35,8 @@ def configure():
     parser.add_argument(
         '-i', '--interval',
         type=int,
-        default=16,
-        help='number of intervals')
+        default=7,
+        help='number of steps')
     parser.add_argument(
         '-s', '--saturation',
         type=float,
@@ -59,7 +59,7 @@ def main():
     args = configure().parse_args()
     s, v = args.saturation, args.lightness
 
-    nodes = np.linspace(0, 1, args.interval + 1)
+    nodes = np.linspace(0, 1, args.interval)
 
     colors = np.array([hsv_to_rgb(h, s, v) for h in nodes])
     colors *= 255
