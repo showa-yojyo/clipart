@@ -67,7 +67,7 @@
        x2="417.14844"
        y2="321.42059"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.3871281,0,0,2.3871281,-995.7867,-369.41331)" />
+       gradientTransform="matrix(2.268161,0,0,2.2681611,-946.15981,-335.50796)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -159,16 +159,16 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.87128067px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4185);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="54.549606"
-       y="298.98251"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.68161011px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4185);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="51.831005"
+       y="299.57712"
        id="text4175"
        sodipodi:linespacing="125%"
-       transform="scale(0.87615875,1.1413457)"><tspan
+       transform="scale(0.87615874,1.1413457)"><tspan
          sodipodi:role="line"
          id="tspan4177"
-         x="54.549606"
-         y="298.98251"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:429.68304443px;font-family:'Flesh Wound';-inkscape-font-specification:'Flesh Wound';fill:url(#linearGradient4185);fill-opacity:1">Weltherrshaft</tspan></text>
+         x="51.831005"
+         y="299.57712"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:408.26898193px;font-family:'Flesh Wound';-inkscape-font-specification:'Flesh Wound';fill:url(#linearGradient4185);fill-opacity:1">Weltherrschaft</tspan></text>
   </g>
 </svg>
