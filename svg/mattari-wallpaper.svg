@@ -8,19 +8,72 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="701"
    height="625"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="mattari-wallpaper.svg"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    enable-background="new">
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient4249"
+       inkscape:collect="always">
+      <stop
+         id="stop4251"
+         offset="0"
+         style="stop-color:#550000;stop-opacity:0.5" />
+      <stop
+         style="stop-color:#aa0000;stop-opacity:0.5"
+         offset="0.50071329"
+         id="stop4253" />
+      <stop
+         id="stop4255"
+         offset="1"
+         style="stop-color:#550000;stop-opacity:0.5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4215">
+      <stop
+         style="stop-color:#f4ec6c;stop-opacity:1"
+         offset="0"
+         id="stop4217" />
+      <stop
+         id="stop4223"
+         offset="0.37757808"
+         style="stop-color:#804400;stop-opacity:1" />
+      <stop
+         style="stop-color:#bc8000;stop-opacity:1"
+         offset="0.42559299"
+         id="stop4225" />
+      <stop
+         style="stop-color:#fcfc80;stop-opacity:1"
+         offset="1"
+         id="stop4219" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4205">
+      <stop
+         style="stop-color:#800000;stop-opacity:1"
+         offset="0"
+         id="stop4207" />
+      <stop
+         id="stop4243"
+         offset="0.50071329"
+         style="stop-color:#aa0000;stop-opacity:1" />
+      <stop
+         style="stop-color:#800000;stop-opacity:1"
+         offset="1"
+         id="stop4209" />
+    </linearGradient>
     <linearGradient
        id="linearGradient3757"
        osb:paint="gradient">
@@ -33,53 +86,6 @@
          offset="1"
          id="stop3761" />
     </linearGradient>
-    <filter
-       id="filter6009"
-       inkscape:menu-tooltip="Same as HSL Bumps but with transparent highlights"
-       inkscape:menu="Image effects, transparent"
-       inkscape:label="HSL Bumps alpha"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         id="feGaussianBlur6011"
-         result="result0"
-         in="SourceGraphic"
-         stdDeviation="0.5" />
-      <feColorMatrix
-         id="feColorMatrix6013"
-         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 4.4 -2.9 "
-         in="result0"
-         result="fbSourceGraphicAlpha" />
-      <feGaussianBlur
-         id="feGaussianBlur6015"
-         stdDeviation="0.7"
-         in="fbSourceGraphicAlpha"
-         result="result0" />
-      <feSpecularLighting
-         id="feSpecularLighting6017"
-         in="result0"
-         result="result1"
-         lighting-color="rgb(255,255,255)"
-         surfaceScale="-2"
-         specularConstant="1.5"
-         specularExponent="10">
-        <feDistantLight
-           id="feDistantLight6019"
-           elevation="50"
-           azimuth="235" />
-      </feSpecularLighting>
-      <feComposite
-         id="feComposite6021"
-         in2="result1"
-         result="result4"
-         operator="in"
-         in="SourceGraphic" />
-      <feComposite
-         id="feComposite6023"
-         in2="result4"
-         operator="arithmetic"
-         k2="1"
-         k3="1" />
-    </filter>
     <filter
        id="filter6025"
        inkscape:menu-tooltip="Same as HSL Bumps but with transparent highlights"
@@ -127,133 +133,6 @@
          k2="1"
          k3="1" />
     </filter>
-    <filter
-       id="filter6041"
-       inkscape:menu-tooltip="Same as HSL Bumps but with transparent highlights"
-       inkscape:menu="Image effects, transparent"
-       inkscape:label="HSL Bumps alpha"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         id="feGaussianBlur6043"
-         result="result0"
-         in="SourceGraphic"
-         stdDeviation="0.5" />
-      <feColorMatrix
-         id="feColorMatrix6045"
-         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 4.4 -2.9 "
-         in="result0"
-         result="fbSourceGraphicAlpha" />
-      <feGaussianBlur
-         id="feGaussianBlur6047"
-         stdDeviation="0.7"
-         in="fbSourceGraphicAlpha"
-         result="result0" />
-      <feSpecularLighting
-         id="feSpecularLighting6049"
-         in="result0"
-         result="result1"
-         lighting-color="rgb(255,255,255)"
-         surfaceScale="-2"
-         specularConstant="1.5"
-         specularExponent="10">
-        <feDistantLight
-           id="feDistantLight6051"
-           elevation="50"
-           azimuth="235" />
-      </feSpecularLighting>
-      <feComposite
-         id="feComposite6053"
-         in2="result1"
-         result="result4"
-         operator="in"
-         in="SourceGraphic" />
-      <feComposite
-         id="feComposite6055"
-         in2="result4"
-         operator="arithmetic"
-         k2="1"
-         k3="1" />
-    </filter>
-    <filter
-       id="filter6057"
-       inkscape:menu-tooltip="Same as HSL Bumps but with transparent highlights"
-       inkscape:menu="Image effects, transparent"
-       inkscape:label="HSL Bumps alpha"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         id="feGaussianBlur6059"
-         result="result0"
-         in="SourceGraphic"
-         stdDeviation="0.5" />
-      <feColorMatrix
-         id="feColorMatrix6061"
-         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 4.4 -2.9 "
-         in="result0"
-         result="fbSourceGraphicAlpha" />
-      <feGaussianBlur
-         id="feGaussianBlur6063"
-         stdDeviation="0.7"
-         in="fbSourceGraphicAlpha"
-         result="result0" />
-      <feSpecularLighting
-         id="feSpecularLighting6065"
-         in="result0"
-         result="result1"
-         lighting-color="rgb(255,255,255)"
-         surfaceScale="-2"
-         specularConstant="1.5"
-         specularExponent="10">
-        <feDistantLight
-           id="feDistantLight6067"
-           elevation="50"
-           azimuth="235" />
-      </feSpecularLighting>
-      <feComposite
-         id="feComposite6069"
-         in2="result1"
-         result="result4"
-         operator="in"
-         in="SourceGraphic" />
-      <feComposite
-         id="feComposite6071"
-         in2="result4"
-         operator="arithmetic"
-         k2="1"
-         k3="1" />
-    </filter>
-    <filter
-       inkscape:label="Jigsaw piece"
-       inkscape:menu="Bevels"
-       inkscape:menu-tooltip="Low, sharp bevel"
-       color-interpolation-filters="sRGB"
-       id="filter5895">
-      <feSpecularLighting
-         in="SourceAlpha"
-         surfaceScale="1"
-         specularConstant="2"
-         specularExponent="18.5"
-         id="feSpecularLighting5897">
-        <feDistantLight
-           elevation="30"
-           azimuth="225"
-           id="feDistantLight5899" />
-      </feSpecularLighting>
-      <feComposite
-         result="result0"
-         operator="atop"
-         in2="SourceGraphic"
-         id="feComposite5901" />
-      <feMorphology
-         radius="2"
-         result="result1"
-         in="SourceAlpha"
-         operator="dilate"
-         id="feMorphology5903" />
-      <feComposite
-         in="result0"
-         in2="result1"
-         id="feComposite5905" />
-    </filter>
     <linearGradient
        id="linearGradient3757-0"
        osb:paint="gradient">
@@ -266,82 +145,44 @@
          offset="1"
          id="stop3761-3" />
     </linearGradient>
-    <filter
+    <linearGradient
        inkscape:collect="always"
-       id="filter9220">
-      <feBlend
-         inkscape:collect="always"
-         mode="multiply"
-         in2="BackgroundImage"
-         id="feBlend9222" />
-    </filter>
-    <filter
-       inkscape:label="Crumpled plastic"
-       inkscape:menu="Textures"
-       inkscape:menu-tooltip="Crumpled matte plastic, with melted edge"
-       color-interpolation-filters="sRGB"
-       id="filter9602">
-      <feTurbulence
-         numOctaves="2"
-         seed="0"
-         type="turbulence"
-         baseFrequency="0.08"
-         result="result91"
-         id="feTurbulence9604" />
-      <feDisplacementMap
-         result="fbSourceGraphic"
-         scale="10"
-         yChannelSelector="G"
-         xChannelSelector="R"
-         in="SourceGraphic"
-         in2="result91"
-         id="feDisplacementMap9606" />
-      <feGaussianBlur
-         result="result0"
-         in="fbSourceGraphic"
-         stdDeviation="0.5"
-         id="feGaussianBlur9608" />
-      <feTurbulence
-         baseFrequency="0.01"
-         seed="488"
-         numOctaves="8"
-         result="result1"
-         id="feTurbulence9610" />
-      <feComposite
-         result="result2"
-         operator="in"
-         in2="result1"
-         in="result0"
-         id="feComposite9612" />
-      <feSpecularLighting
-         surfaceScale="1.5"
-         result="result4"
-         specularConstant="1"
-         specularExponent="30"
-         in="result2"
-         id="feSpecularLighting9614">
-        <feDistantLight
-           elevation="70"
-           azimuth="235"
-           id="feDistantLight9616" />
-      </feSpecularLighting>
-      <feComposite
-         in2="result2"
-         in="result4"
-         operator="atop"
-         result="result5"
-         id="feComposite9618" />
-      <feBlend
-         mode="multiply"
-         result="result6"
-         in2="result5"
-         id="feBlend9620" />
-      <feBlend
-         mode="screen"
-         in="result6"
-         in2="result6"
-         id="feBlend9622" />
-    </filter>
+       xlink:href="#linearGradient4215"
+       id="linearGradient4221"
+       x1="530.23541"
+       y1="618.1933"
+       x2="530.23541"
+       y2="599.96979"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(112.81146,3.0614624)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4215"
+       id="linearGradient4231"
+       gradientUnits="userSpaceOnUse"
+       x1="530.23541"
+       y1="618.1933"
+       x2="530.23541"
+       y2="599.96979"
+       gradientTransform="matrix(1.7073224,0,0,1.7073224,-382.74978,-454.11145)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4205"
+       id="linearGradient4241"
+       x1="0"
+       y1="312.5"
+       x2="701"
+       y2="312.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4249"
+       id="linearGradient4247"
+       gradientUnits="userSpaceOnUse"
+       x1="0"
+       y1="625"
+       x2="0"
+       y2="0" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -350,11 +191,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="234.48321"
-     inkscape:cy="369.53593"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="384.89231"
+     inkscape:cy="310.32874"
      inkscape:document-units="px"
-     inkscape:current-layer="svg2"
+     inkscape:current-layer="layer-table-color"
      showgrid="false"
      inkscape:window-width="1366"
      inkscape:window-height="684"
@@ -362,9 +203,11 @@
      inkscape:window-y="53"
      inkscape:window-maximized="1"
      inkscape:snap-grids="false"
-     inkscape:snap-bbox="false"
+     inkscape:snap-bbox="true"
      inkscape:object-paths="false"
-     inkscape:snap-page="true">
+     inkscape:snap-page="true"
+     inkscape:bbox-nodes="true"
+     inkscape:object-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid2985"
@@ -386,36 +229,25 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="table-texture"
-     inkscape:groupmode="layer"
-     id="layer-table-texture"
-     transform="translate(0,-427.36218)"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <rect
-       style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter9602);enable-background:accumulate"
-       id="rect2987"
-       width="701"
-       height="625"
-       x="0"
-       y="427.36218"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       transform="matrix(1.1378982,0,0,1.1378982,-48.333333,-102.02569)" />
-  </g>
-  <g
      inkscape:groupmode="layer"
      id="layer-table-color"
      inkscape:label="table-color"
-     style="display:inline;filter:url(#filter9220)"
+     style="display:inline"
      sodipodi:insensitive="true">
     <rect
-       style="color:#000000;fill:#5d149b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4241);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;enable-background:accumulate"
        id="rect9624"
        width="701"
        height="625"
        x="0"
        y="0" />
+    <rect
+       y="0"
+       x="0"
+       height="625"
+       width="701"
+       id="rect4245"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4247);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;enable-background:accumulate" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -424,33 +256,37 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#16502d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 440,317.75 c 0.33906,-0.0489 0.69877,-0.0257 1.03125,-0.0937 1.13921,-0.23312 2.23441,-0.58848 3.28125,-1.03125 1.04684,-0.44277 2.03774,-0.99602 2.96875,-1.625 0.93101,-0.62898 1.80203,-1.33328 2.59375,-2.125 0.79172,-0.79172 1.49602,-1.66274 2.125,-2.59375 0.62898,-0.93101 1.18223,-1.92191 1.625,-2.96875 0.44277,-1.04684 0.79813,-2.14204 1.03125,-3.28125 C 454.88937,302.89204 455,301.70812 455,300.5 c 0,-1.20812 -0.11063,-2.39204 -0.34375,-3.53125 -0.23312,-1.13921 -0.58848,-2.23441 -1.03125,-3.28125 -0.44277,-1.04684 -0.99602,-2.03774 -1.625,-2.96875 -0.62898,-0.93101 -1.33328,-1.80203 -2.125,-2.59375 -0.79172,-0.79172 -1.66274,-1.49602 -2.59375,-2.125 -0.93101,-0.62898 -1.92191,-1.18223 -2.96875,-1.625 -1.04684,-0.44277 -2.14204,-0.79813 -3.28125,-1.03125 -0.33248,-0.068 -0.69219,-0.0449 -1.03125,-0.0937 l 0,5.75 0,18 0,10.75 z"
+       style="fill:#2b0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 440.07222,310.65898 c 0.24538,-0.0359 0.5057,-0.0189 0.74632,-0.0688 0.82445,-0.17107 1.61705,-0.43185 2.37466,-0.75677 0.7576,-0.32492 1.47472,-0.73091 2.14849,-1.19248 0.67378,-0.46157 1.30414,-0.97841 1.87711,-1.5594 0.57297,-0.581 1.08268,-1.22018 1.53787,-1.90339 0.4552,-0.68321 0.85559,-1.41037 1.17602,-2.17858 0.32044,-0.76821 0.57761,-1.5719 0.74632,-2.4079 0.16871,-0.83603 0.24878,-1.70483 0.24878,-2.59139 0,-0.88657 -0.0801,-1.75537 -0.24878,-2.59136 -0.16871,-0.836 -0.42588,-1.63969 -0.74632,-2.4079 -0.32043,-0.76821 -0.72082,-1.49537 -1.17602,-2.17858 -0.45519,-0.68321 -0.9649,-1.3224 -1.53787,-1.90339 -0.57297,-0.58099 -1.20333,-1.09783 -1.87711,-1.5594 -0.67377,-0.46157 -1.39089,-0.86756 -2.14849,-1.19248 -0.75761,-0.32493 -1.55021,-0.5857 -2.37466,-0.75677 -0.24062,-0.0499 -0.50094,-0.033 -0.74632,-0.0688 l 0,4.21956 0,13.20905 0,7.88874 z"
        id="path4119"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#5d149b;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6057)"
-       d="m 510,157 -70,70 0,56.25 c 0.33906,0.0489 0.69877,0.0257 1.03125,0.0937 1.13921,0.23312 2.23441,0.58848 3.28125,1.03125 1.04684,0.44277 2.03774,0.99602 2.96875,1.625 0.93101,0.62898 1.80203,1.33328 2.59375,2.125 0.79172,0.79172 1.49602,1.66274 2.125,2.59375 0.62898,0.93101 1.18223,1.92191 1.625,2.96875 0.44277,1.04684 0.79813,2.14204 1.03125,3.28125 0.23312,1.13921 0.34375,2.32313 0.34375,3.53125 0,1.20812 -0.11063,2.39204 -0.34375,3.53125 -0.23312,1.13921 -0.58848,2.23441 -1.03125,3.28125 -0.44277,1.04684 -0.99602,2.03774 -1.625,2.96875 -0.62898,0.93101 -1.33328,1.80203 -2.125,2.59375 -0.79172,0.79172 -1.66274,1.49602 -2.59375,2.125 -0.93101,0.62898 -1.92191,1.18223 -2.96875,1.625 -1.04684,0.44277 -2.14204,0.79813 -3.28125,1.03125 -0.33248,0.068 -0.69219,0.0449 -1.03125,0.0937 l 0,51.25 70,70 10,0 0,-132 0,-18 0,-132 -10,0 z"
-       id="path3874"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path3879"
-       d="m 180,439 70,-70 0,-62 0,-18 0,-64 -70,-70 -10,0 0,134 0,18 0,132 z"
-       style="fill:none;stroke:#5d149b;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6009)"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccc" />
-    <path
        id="path3881"
        d="m 510,440 -70,-70 -62,0 -64,0 -64,0 -70,70 0,10 134,0 64,0 132,0 z"
-       style="fill:none;stroke:#5d149b;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6025)"
+       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.25098039;filter:url(#filter6025)"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccc" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path3881"
+       id="use4302"
+       transform="matrix(1,0,0,-1,0,596)"
+       width="100%"
+       height="100%" />
     <path
-       sodipodi:nodetypes="ccccccccccc"
-       inkscape:connector-curvature="0"
-       style="fill:none;stroke:#5d149b;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6041)"
-       d="m 510,156 -70,70 -62,0 -64,0 -62,0 -70,-70 0,-10 132,0 64,0 132,0 z"
-       id="path3883" />
+       id="path4466"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.25098039;filter:url(#filter6025);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M 520.2504,440.00078 510,440 m 10.2504,-284 0,284.00078 M 440,370 l 0,-144 70,-70 10.2504,0"
+       inkscape:connector-curvature="0" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path4466"
+       id="use4490"
+       transform="matrix(-1,0,0,1,690,0)"
+       width="100%"
+       height="100%" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -459,29 +295,30 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <text
-       xml:space="preserve"
-       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:MS PMincho;-inkscape-font-specification:MS PMincho"
-       x="529.21979"
-       y="616.21979"
-       id="text3774"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan3776"
-         x="529.21979"
-         y="616.21979"
-         style="font-size:20px;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:MS PMincho Bold">まったり麻雀 {{ VERSION }}</tspan></text>
-    <text
        sodipodi:linespacing="100%"
        id="text-version"
-       y="616.21979"
-       x="529.21979"
-       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter5895);font-family:MS PMincho;-inkscape-font-specification:MS PMincho"
+       y="619.28125"
+       x="642.03125"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:100%;font-family:'MS PMincho';-inkscape-font-specification:'MS PMincho';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4221);fill-opacity:1;stroke:none"
        xml:space="preserve"
        inkscape:label="#text3013"><tspan
-         style="font-size:20px;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:MS PMincho Bold"
-         y="616.21979"
-         x="529.21979"
+         style="font-weight:bold;font-size:20px;-inkscape-font-specification:'MS PMincho Bold';fill:url(#linearGradient4221);fill-opacity:1"
+         y="619.28125"
+         x="642.03125"
          id="tspan3015"
-         sodipodi:role="line">まったり麻雀 {{ VERSION }}</tspan></text>
+         sodipodi:role="line">{{ VERSION }}</tspan></text>
+    <text
+       inkscape:label="#text3013"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:95.61005402px;line-height:100%;font-family:'MS PMincho';-inkscape-font-specification:'MS PMincho';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4231);fill-opacity:1;stroke:none"
+       x="520.79901"
+       y="597.97437"
+       id="text4227"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4229"
+         x="520.79901"
+         y="597.97437"
+         style="font-weight:bold;font-size:34.14644623px;-inkscape-font-specification:'MS PMincho Bold';fill:url(#linearGradient4231);fill-opacity:1">まったり麻雀</tspan></text>
   </g>
 </svg>
