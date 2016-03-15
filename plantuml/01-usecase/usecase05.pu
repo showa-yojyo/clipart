@@ -1,0 +1,7 @@
+' 2.5 Extension, Drawing UML with PlantUML (V8037, p. 25)
+@startuml
+:Main Admin: as Admin
+(Use the application) as (Use)
+User <|-- Admin
+(Start) <|-- (Use)
+@enduml

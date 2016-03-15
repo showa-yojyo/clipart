@@ -1,0 +1,7 @@
+' 2.1 Usecases, Drawing UML with PlantUML (V8037, p. 22)
+@startuml
+(First usecase)
+(Another usecase) as (UC2)
+usecase UC3
+usecase (Last\nusecase) as UC4
+@enduml

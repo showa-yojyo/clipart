@@ -1,0 +1,7 @@
+' 2.8 Changing arrows direction, Drawing UML with PlantUML (V8037, p. 26)
+@startuml
+:user: -left-> (dummyLeft)
+:user: -right-> (dummyRight)
+:user: -up-> (dummyUp)
+:user: -down-> (dummyDown)
+@enduml

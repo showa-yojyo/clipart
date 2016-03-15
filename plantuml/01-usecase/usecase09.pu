@@ -1,0 +1,5 @@
+' 2.8 Changing arrows direction, Drawing UML with PlantUML (V8037, p. 26)
+@startuml
+(Use case 1) <.. :user:
+(Use case 2) <- :user:
+@enduml

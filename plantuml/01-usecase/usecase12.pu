@@ -1,0 +1,6 @@
+' 2.10 Splitting diagrams, Drawing UML with PlantUML (V8037, p. 27)
+@startuml
+:actor1: --> (Usecase1)
+newpage
+:actor2: --> (Usecase2)
+@enduml
