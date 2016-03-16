@@ -1,6 +1,8 @@
-' 2.9 Title the diagram, Drawing UML with PlantUML (V8037, p. 27)
+' 2.9 Title the diagram, PlantUML Language Reference Guide (V8037, p. 27)
 @startuml
-title Simple <b>Usecase </b>\nwith one actor
+title Simple <b>Usecase</b>\nwith one actor
+
 "Use the application" as (Use)
 User -> (Use)
+
 @enduml

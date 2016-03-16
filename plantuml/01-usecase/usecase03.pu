@@ -1,5 +1,6 @@
-' 2.3 Usecases description, Drawing UML with PlantUML (V8037, p. 23)
+' 2.3 Usecases description, PlantUML Language Reference Guide (V8037, p. 23)
 @startuml
+
 usecase UC1 as "You can use
 several lines to define your usecase.
 You can also use separators.
@@ -9,4 +10,5 @@ Several separators are possible.
 And you can add titles:
 ..Conclusion..
 This allows large description."
+
 @enduml

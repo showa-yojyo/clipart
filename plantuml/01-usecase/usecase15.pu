@@ -1,21 +1,26 @@
-' 2.12 Skinparam, Drawing UML with PlantUML (V8037, pp. 28-29)
+' 2.12 Skinparam, PlantUML Language Reference Guide (V8037, pp. 28-29)
 @startuml
 skinparam handwritten true
+
 skinparam usecase {
     BackgroundColor DarkSeaGreen
     BorderColor DarkSlateGray
-    BackgroundColor << Main >> YellowGreen
-    BorderColor << Main >> YellowGreen
+    BackgroundColor <<Main>> YellowGreen
+    BorderColor <<Main>> YellowGreen
     ArrowColor Olive
     ActorBorderColor black
     ActorFontName Courier
-    ActorBackgroundColor << Human >> Gold
+    ActorBackgroundColor <<Human>> Gold
 }
-User << Human >>
-:Main Database: as MySql << Application >>
-(Start) << One Shot >>
-(Use the application) as (Use) << Main >>
+
+User <<Human>>
+:Main Database: as MySql <<Application>>
+(Start) <<One Shot>>
+(Use the application) as (Use) <<Main>>
+
 User -> (Start)
 User --> (Use)
+
 MySql --> (Use)
+
 @enduml

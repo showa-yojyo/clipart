@@ -1,7 +1,9 @@
-' 2.2 Actors, Drawing UML with PlantUML (V8037, p. 22)
+' 2.2 Actors, PlantUML Language Reference Guide (V8037, p. 22)
 @startuml
+
 :First Actor:
 :Another\nactor: as Men2
 actor Men3
 actor :Last actor: as Men4
+
 @enduml
