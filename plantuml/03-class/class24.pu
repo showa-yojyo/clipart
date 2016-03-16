@@ -1,0 +1,9 @@
+' 3.19 Automatic namespace creation, PlantUML Language Reference Guide (V8037, p. 45)
+@startuml
+
+set namespaceSeparator ::
+class X1::X2::foo {
+    some info
+}
+
+@enduml

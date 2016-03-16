@@ -1,0 +1,21 @@
+' 3.12 Hide attributes, methods..., PlantUML Language Reference Guide (V8037, p. 41)
+@startuml
+
+class Dummy1 {
+    +myMethods()
+}
+
+class Dummy2 {
+    +hiddenMethod()
+}
+
+class Dummy3 <<Serializable >> {
+    String name
+}
+
+hide members
+hide <<Serializable >> circle
+show Dummy1 methods
+show <<Serializable >> fields
+
+@enduml

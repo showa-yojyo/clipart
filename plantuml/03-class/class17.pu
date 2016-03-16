@@ -1,0 +1,11 @@
+' 3.13 Hide classes, PlantUML Language Reference Guide (V8037, p. 42)
+@startuml
+
+class Foo1
+class Foo2
+
+Foo2 *-- Foo1
+
+hide Foo2
+
+@enduml

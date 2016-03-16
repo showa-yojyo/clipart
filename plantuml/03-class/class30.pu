@@ -1,0 +1,7 @@
+' 3.22 Title the diagram, PlantUML Language Reference Guide (V8037, p. 47)
+@startuml
+
+title Simple <b>example </b>\nof title
+Object <|-- ArrayList
+
+@enduml

@@ -1,0 +1,7 @@
+' 3.2 Label on relations, PlantUML Language Reference Guide (V8037, p. 31)
+@startuml
+class Car
+Driver - Car : drives >
+Car *- Wheel : has 4 >
+Car -- Person : < owns
+@enduml
