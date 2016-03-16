@@ -1,0 +1,15 @@
+' 5.3 Conditional, PlantUML Language Reference Guide (V8037, p. 65)
+@startuml
+
+start
+
+if (Graphviz installed?) then (yes)
+    :process all\ndiagrams;
+else (no)
+    :process only
+    __sequence__ and __activity__ diagrams;
+endif
+
+stop
+
+@enduml

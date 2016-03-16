@@ -1,0 +1,17 @@
+' 5.6 Parallel processing, PlantUML Language Reference Guide (V8037, pp. 67-68)
+@startuml
+
+start
+
+if (multiprocessor?) then (yes)
+    fork
+    :Treatment 1;
+    fork again
+    :Treatment 2;
+    end fork
+else (monoproc)
+    :Treatment 1;
+    :Treatment 2;
+endif
+
+@enduml

@@ -1,0 +1,15 @@
+' 5.11 Grouping, PlantUML Language Reference Guide (V8037, p. 70)
+@startuml
+start
+partition Initialization {
+    :read config file;
+    :init internal variable;
+}
+
+partition Running {
+    :wait for user interaction;
+    :print information;
+}
+
+stop
+@enduml

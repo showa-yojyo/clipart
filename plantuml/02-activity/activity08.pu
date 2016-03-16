@@ -1,0 +1,10 @@
+' 5.5 While loop, PlantUML Language Reference Guide (V8037, p. 68)
+@startuml
+
+while (check filesize ?) is (not empty)
+    :read file;
+endwhile (empty)
+
+:close file;
+
+@enduml

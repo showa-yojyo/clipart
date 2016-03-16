@@ -1,0 +1,19 @@
+' 5.12 Swimlanes, PlantUML Language Reference Guide (V8037, p. 71)
+@startuml
+
+|Swimlane1|
+start
+:foo1;
+
+|#AntiqueWhite|Swimlane2|
+:foo2;
+:foo3;
+
+|Swimlane1|
+:foo4;
+
+|Swimlane2|
+:foo5;
+stop
+
+@enduml

@@ -1,0 +1,22 @@
+' 5.13 Detach, PlantUML Language Reference Guide (V8037, p. 72)
+@startuml
+:start;
+fork
+    :foo1;
+    :foo2;
+    fork again
+    :foo3;
+    detach
+endfork
+
+if (foo4) then
+    :foo5;
+    detach
+endif
+
+:foo6;
+detach
+
+:foo7;
+stop
+@enduml

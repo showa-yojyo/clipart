@@ -1,0 +1,13 @@
+' 5.4 Repeat loop, PlantUML Language Reference Guide (V8037, p. 66)
+@startuml
+
+start
+
+repeat
+    :read data;
+    :generate diagrams;
+repeat while (more data?)
+
+stop
+
+@enduml
