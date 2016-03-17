@@ -1,0 +1,4 @@
+' 1.5 Message to Self, PlantUML Language Reference Guide (V8037, p. 3)
+@startuml
+Alice ->Alice: This is a signal to self.\nIt also demonstrates\nmultiline\ntext
+@enduml

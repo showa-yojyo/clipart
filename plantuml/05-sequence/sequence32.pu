@@ -1,0 +1,9 @@
+' 1.24 Stereotypes and Spots, PlantUML Language Reference Guide (V8037, p. 18)
+@startuml
+
+participant Bob <<(C,#ADD1B2)>>
+participant Alice <<(C,#ADD1B2)>>
+
+Bob ->Alice: First message
+
+@enduml

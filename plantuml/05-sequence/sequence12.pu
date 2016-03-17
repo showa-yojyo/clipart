@@ -1,0 +1,9 @@
+' 1.9 Title, PlantUML Language Reference Guide (V8037, p. 6)
+@startuml
+
+title Simple communication example
+
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+@enduml

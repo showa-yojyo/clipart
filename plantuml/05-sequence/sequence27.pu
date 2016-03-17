@@ -1,0 +1,15 @@
+' 1.22 Participant creation, PlantUML Language Reference Guide (V8037, pp. 15-16)
+@startuml
+Bob -> Alice : hello
+
+create Other
+Alice -> Other : new
+
+create control String
+Alice -> String
+
+note right : You can also put notes!
+
+Alice --> Bob : ok
+
+@enduml

@@ -1,0 +1,10 @@
+' 1.10 Legend the diagram, PlantUML Language Reference Guide (V8037, p. 7)
+@startuml
+
+Alice -> Bob : Hello
+legend right
+    Short
+    legend
+endlegend
+
+@enduml

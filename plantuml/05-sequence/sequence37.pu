@@ -1,0 +1,10 @@
+' 1.27 Removing Footer, PlantUML Language Reference Guide (V8037, p. 20)
+@startuml
+
+hide footbox
+title Footer removed
+
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+@enduml

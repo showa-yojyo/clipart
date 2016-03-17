@@ -1,0 +1,22 @@
+' 1.21 Lifeline Activation and Destruction,
+' PlantUML Language Reference Guide (V8037, p. 14)
+@startuml
+participant User
+User -> A: DoWork
+activate A
+
+A -> B: <<createRequest>>
+activate B
+
+B -> C: DoWork
+activate C
+C --> B: WorkDone
+destroy C
+
+B --> A: RequestCreated
+deactivate B
+
+A -> User: Done
+deactivate A
+
+@enduml

@@ -1,0 +1,17 @@
+' 1.23 Incoming and outgoing messages, 
+' PlantUML Language Reference Guide (V8037, p. 16)
+@startuml
+[-> A: DoWork
+
+activate A
+
+A -> A: Internal call
+activate A
+
+A ->] : <<createRequest>>
+
+A<--] : RequestCreated
+deactivate A
+[<- A: Done
+deactivate A
+@enduml

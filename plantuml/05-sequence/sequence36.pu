@@ -1,0 +1,13 @@
+' 1.26 Participants encompass, PlantUML Language Reference Guide (V8037, p. 19)
+@startuml
+
+box "Internal Service" #LightBlue
+    participant Bob
+    participant Alice
+end box
+participant Other
+
+Bob -> Alice : hello
+Alice -> Other : hello
+
+@enduml
