@@ -1,0 +1,5 @@
+' 6.6 Changing arrows direction, PlantUML Language Reference Guide (V8037, p. 79)
+@startuml
+Interface1 <-- [Component]
+Interface2 <- [Component]
+@enduml

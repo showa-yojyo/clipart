@@ -1,0 +1,7 @@
+' 6.6 Changing arrows direction, PlantUML Language Reference Guide (V8037, p. 79)
+@startuml
+[Component] -left-> left
+[Component] -right-> right
+[Component] -up-> up
+[Component] -down-> down
+@enduml

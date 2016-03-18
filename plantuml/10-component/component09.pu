@@ -1,0 +1,10 @@
+' 6.7 Title the diagram, PlantUML Language Reference Guide (V8037, p. 80)
+@startuml
+title Very simple component\ndiagram
+
+interface "Data Access" as DA
+
+DA - [First Component]
+[First Component] ..> HTTP : use
+
+@enduml

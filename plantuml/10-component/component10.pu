@@ -1,0 +1,11 @@
+' 6.8 Use UML2 notation, PlantUML Language Reference Guide (V8037, p. 80)
+@startuml
+
+skinparam componentStyle uml2
+
+interface "Data Access" as DA
+
+DA - [First Component]
+[First Component] ..> HTTP : use
+
+@enduml
