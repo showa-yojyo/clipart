@@ -1,0 +1,34 @@
+' http://www.sparxsystems.com.au/resources/uml2_tutorial/uml2_packagediagram.html
+@startuml
+
+' skinparam packageStyle frame
+skinparam monochrome true
+
+package "pkg Packages"{
+    namespace GenApply{
+        class Loader
+        class Shape
+        class Time
+    }
+    namespace Controller{
+        class Loader
+        class Time
+        'namespace ConSeq
+    }
+    namespace ConnSeq{
+        class ConnSeg
+        class NetAbstract
+    }
+    namespace Integer{
+        class Integer
+    }
+}
+
+GenApply ..> Controller : <<merge>>
+Controller +-- ConnSeq
+Controller ..> Integer : <<import>>
+
+'hide members
+hide circle
+
+@enduml

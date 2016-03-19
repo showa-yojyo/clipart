@@ -1,0 +1,24 @@
+' http://www.agilemodeling.com/artifacts/packageDiagram.htm
+' Figure 2. The contents of the Schedule package.
+@startuml
+
+skinparam packageStyle frame
+skinparam monochrome true
+
+package "Package Schedule" {
+    class Seminar
+    class Enrollment
+    class Course
+    class Location
+    class Time
+}
+
+Seminar "1..*" -- "1" Course : xxxx
+Seminar "1..*" -- "1" Location : held at
+Seminar "1" -- "0..*" Enrollment
+(Seminar, Location) .. Time
+
+hide members
+hide circle
+
+@enduml

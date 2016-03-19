@@ -1,0 +1,25 @@
+' https://www.visual-paradigm.com/VPGallery/diagrams/Package.html
+@startuml
+
+skinparam ArrowColor Black
+skinparam componentArrowColor Black
+skinparam packageBackgroundColor SkyBlue
+
+package serverSideApplication{
+}
+package serverSideModel{
+}
+package webApplication{
+}
+package clientSideApplication{
+}
+package databaseSideModel{
+}
+
+serverSideApplication <.. clientSideApplication
+serverSideApplication ..> serverSideModel
+serverSideModel <.. clientSideApplication
+webApplication ..> serverSideModel
+serverSideModel ..> databaseSideModel
+
+@enduml

@@ -1,0 +1,38 @@
+' http://www.agilemodeling.com/artifacts/packageDiagram.htm
+' Fugure 1. Package diagram organizing the university class model.
+@startuml
+
+skinparam packageStyle rect
+skinparam monochrome true
+
+package SeminarResistration <<application>> {
+    'class Class1
+}
+package Schedule {
+    'class Class2
+}
+package Student {
+    'class Class3
+}
+package Professor {
+    'class Class4
+}
+package ContactPoint {
+    'class Class5
+}
+package JavaInfrastructure <<technical>> {
+    'class Class6
+}
+
+SeminarResistration ..> Schedule
+SeminarResistration ..> Student
+SeminarResistration ..> Professor
+SeminarResistration ..> JavaInfrastructure <<import>>
+Schedule ..> JavaInfrastructure : <<import>>
+Student ..> Schedule
+Student ..> ContactPoint
+Student ..> JavaInfrastructure : <<import>>
+Professor ..> JavaInfrastructure : <<import>>
+ContactPoint ..> JavaInfrastructure : <<import>>
+
+@enduml

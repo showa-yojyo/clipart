@@ -1,0 +1,21 @@
+' https://sourcemaking.com/uml/modeling-business-systems/internal-view/constructing-package-diagrams
+' Constructing Package Diagrams, Figure 3.33 Organization unit "Passenger Services"
+@startuml
+
+skinparam monochrome true
+
+package "Passenger Services" <<Organization Unit>>{
+    package "Check-In" <<Organization Unit>>{
+        control "Check-In\nEmployee"
+        entity Luggage
+        entity Ticket
+        entity "Boarding\nPass " ' Intentionally left trailing space.
+    }
+
+    package "Boarding" <<Organization Unit>>{
+        control "Boarding\nEmployee"
+        entity "Boarding\nPass"
+    }
+}
+
+@enduml
