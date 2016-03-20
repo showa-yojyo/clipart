@@ -1,0 +1,29 @@
+' Figure 19.6 DeploymentSpecifications related to the DeployedArtifacts
+' that they parameterize.
+' Unified Modeling Language 2.5, p. 653.
+@startuml
+
+skinparam monochrome true
+
+package "<u>:AppServer1</u>" <<Node>> {
+    ' TODO: <<artifact>>
+    ' TODO: "<&file>"
+
+    package "<u>ShoppingApp.ear</u>" {
+        ' TODO: <<artifact>>
+        ' TODO: "<&file>"
+
+        class "ShoppinCart.jar <&file>" as ShoppinCart <<artifact>>
+        class "Order.jar <&file>" as Order <<artifact>>
+        class "<u>ShoppingAppdesc.xml</u>" as ShoppinAppdesc <<deployment spec>>
+        class "<u>Orderdesc.xml</u>" as Orderdesc <<deployment spec>>
+
+        ShoppinCart ..> Order
+        Orderdesc ..> Order
+    }
+}
+
+hide circle
+hide members
+
+@enduml

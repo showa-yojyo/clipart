@@ -1,0 +1,18 @@
+' Figure 19.2 A visual representation of the deployment location of artifacts,
+' including a dependency between them, inside a DeployedTarget graphic.
+' Unified Modeling Language 2.5, p. 652.
+@startuml
+
+skinparam monochrome true
+
+package ":<u>AppServer1</u>" <<Node>>{
+    class "ShoppinCart.jar <&file>" as A <<artifact>>
+    class "Order.jar <&file>" as B <<artifact>>
+}
+
+A .right.> B
+
+hide circle
+hide members
+
+@enduml

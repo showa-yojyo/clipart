@@ -1,0 +1,21 @@
+' Figure 19.3 Alternative deployment representation of using a dependency
+' called <<deploy>> used when DeployedArtifacts are visually outside their
+' DeployedTarget graphics.
+' Unified Modeling Language 2.5, p. 652.
+@startuml
+
+skinparam monochrome true
+
+package "<u>:AppServer1</u>" as S <<Node>>{
+}
+
+class "ShoppinCart.jar <&file>" as A <<artifact>>
+class "Order.jar <&file>" as B <<artifact>>
+
+A .up.> S : <<deploy>>
+B .up.> S : <<deploy>>
+
+hide circle
+hide members
+
+@enduml

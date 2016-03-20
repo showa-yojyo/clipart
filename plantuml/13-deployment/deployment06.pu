@@ -1,0 +1,29 @@
+' Figure 19.12 Notation for a Device containing an ExecutionEnvironment 
+' and connected to another Device by a CommunicationPath link
+' Unified Modeling Language 2.5, p. 657.
+@startuml
+
+skinparam monochrome true
+skinparam packageStyle Node
+
+package "<<device>>\n:<u>AppServer</u>" as A{
+    package "<<executionEnvironment>>\n:<u>J2EEServer</u>"{
+        object Order.jar
+        object ShoppingCart.jar
+        object Account.jar
+        object Product.jar
+        object BackOrder.jar
+        object Service.jar
+    }
+}
+package "<<device>>\n:<u>DBServer</u>" as D{
+    object OrderSchema.ddl
+    object ItemSchema.ddl
+}
+
+A -right- D
+
+hide circle
+hide members
+
+@enduml

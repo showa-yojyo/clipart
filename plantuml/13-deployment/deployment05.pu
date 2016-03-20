@@ -1,0 +1,19 @@
+' Figure 19.10 A Manifestation relationship between an Artifact and a Component
+' Unified Modeling Language 2.5, p. 655.
+@startuml
+
+skinparam componentStyle uml2
+skinparam monochrome true
+
+interface " " as x
+component [<<component>>\nOrder] as C
+'class "Order.jar <&file>" as O <<artifact>>
+interface "<<artifact>>\nOrder.jar" as O
+
+x -right- C
+C <.. O : <<manifest>>
+
+' hide circle
+' hide members
+
+@enduml

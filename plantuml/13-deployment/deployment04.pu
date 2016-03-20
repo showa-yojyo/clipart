@@ -1,0 +1,18 @@
+' Figure 19.7 A DeploymentSpecification for a DeployedArtifact.
+' Unified Modeling Language 2.5, p. 654.
+@startuml
+
+skinparam monochrome true
+
+class "Order.jar <&file>" as Order <<artifact>>
+class "<u>Orderdesc.xml</u>" as Orderdesc <<deployment spec>>
+package "<u>:AppServer</u>" as AppServer <<Node>> {
+}
+
+Order ..> AppServer : <<deploy>>
+(Order, AppServer) . Orderdesc    ' compile error
+
+hide circle
+hide members
+
+@enduml
