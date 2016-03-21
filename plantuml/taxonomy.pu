@@ -1,0 +1,54 @@
+' Figure A.5 The taxonomy of structure and behavior diagrams
+' OMG, Unified Modeling Language 2.5, p. 683
+@startuml
+
+skinparam monochrome true
+
+class "//Diagram//" as Diagram
+
+class "//Structure//\n//Diagram//" as StructureDiagram
+class "//Behavior//\n//Diagram//" as BehaviorDiagram
+
+class "Profile\nDiagram" as ProfileDiagram
+class "Class\nDiagram" as ClassDiagram
+class "Composite\nStructure\nDiagram" as CompositeStructureDiagram
+class "Component\nDiagram" as ComponentDiagram
+class "Deployment\nDiagram" as DeploymentDiagram
+class "Object\nDiagram" as ObjectDiagram
+class "Package\nDiagram" as PackageDiagram
+
+class "Activity\nDiagram" as ActivityDiagram
+class "//Interaction//\n//Diagram//" as InteractionDiagram
+class "Use Case\nDiagram" as UseCaseDiagram
+class "State Machine\nDiagram" as StateMachineDiagram
+
+class "Sequence\nDiagram" as SequenceDiagram
+class "Communication\nDiagram" as CommunicationDiagram
+class "Interaction\nOverview\nDiagram" as InteractionOverviewDiagram
+class "Timing\nDiagram" as TimingDiagram
+
+Diagram <|-- StructureDiagram
+Diagram <|-- BehaviorDiagram
+
+StructureDiagram <|-- ProfileDiagram
+StructureDiagram <|-- ClassDiagram
+StructureDiagram <|-- CompositeStructureDiagram
+StructureDiagram <|-- ComponentDiagram
+StructureDiagram <|-- DeploymentDiagram
+StructureDiagram <|-- ObjectDiagram
+StructureDiagram <|-- PackageDiagram
+
+BehaviorDiagram <|-- ActivityDiagram
+BehaviorDiagram <|-- InteractionDiagram
+BehaviorDiagram <|-- UseCaseDiagram
+BehaviorDiagram <|-- StateMachineDiagram
+
+InteractionDiagram <|-- SequenceDiagram
+InteractionDiagram <|-- CommunicationDiagram
+InteractionDiagram <|-- InteractionOverviewDiagram
+InteractionDiagram <|-- TimingDiagram
+
+hide circle
+hide members
+
+@enduml
