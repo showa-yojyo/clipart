@@ -3,11 +3,13 @@
 @startuml
 
 skinparam monochrome true
+hide circle
+hide members
 
-class "//Diagram//" as Diagram
+abstract class "Diagram" as Diagram
 
-class "//Structure//\n//Diagram//" as StructureDiagram
-class "//Behavior//\n//Diagram//" as BehaviorDiagram
+abstract class "Structure\nDiagram" as StructureDiagram
+abstract class "Behavior\nDiagram" as BehaviorDiagram
 
 class "Profile\nDiagram" as ProfileDiagram
 class "Class\nDiagram" as ClassDiagram
@@ -18,7 +20,7 @@ class "Object\nDiagram" as ObjectDiagram
 class "Package\nDiagram" as PackageDiagram
 
 class "Activity\nDiagram" as ActivityDiagram
-class "//Interaction//\n//Diagram//" as InteractionDiagram
+abstract class "Interaction\nDiagram" as InteractionDiagram
 class "Use Case\nDiagram" as UseCaseDiagram
 class "State Machine\nDiagram" as StateMachineDiagram
 
@@ -47,8 +49,5 @@ InteractionDiagram <|-- SequenceDiagram
 InteractionDiagram <|-- CommunicationDiagram
 InteractionDiagram <|-- InteractionOverviewDiagram
 InteractionDiagram <|-- TimingDiagram
-
-hide circle
-hide members
 
 @enduml

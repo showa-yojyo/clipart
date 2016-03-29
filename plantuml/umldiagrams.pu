@@ -1,0 +1,158 @@
+' Annex B: UML Diagram Interchange
+' OMG, Unified Modeling Language 2.5
+@startuml
+
+skinparam monochrome true
+hide circle
+hide empty members
+
+' Attributes
+
+abstract class UMLDiagramElement{
+    isIcon : Boolean = false
+}
+
+abstract class UMLDiagram{
+    isFrame : Boolean = true
+    isIso : Boolean = true
+    isInheritedLighter : Boolean = false
+}
+
+abstract class UMLDiagramWithAssociations{
+    isAssociationDotShown : Boolean = false
+    navigabilityNotation : UMLNavigabilityNotationKind = oneWay
+    nonNavigabilityNotation : UMLNavigabilityNotationKind = never
+}
+
+abstract class UMLBehaviorDiagram
+abstract class UMLStructureDiagram
+
+class UMLActivityDiagram{
+    isActivityFrame : Boolean = false
+}
+
+class UMLInteractionDiagram{
+    kind : UMLInteractionDiagramKind = sequence
+    isLifelineDashed : Boolean = false
+}
+
+class UMLStateMachineDiagram{
+    isCollapseStateIcon : Boolean = true
+    isInheritedDashed : Boolean = false
+    isTransitionOriented : Boolean = false
+}
+
+class UMLAssociationOrConnectorOrLinkShape{
+    kind : UMLAssociationOrConnectorOrLinkShapeKind
+}
+
+class UMLClassifierShape{
+    isIndentForVisibility : Boolean = false
+    isDoubleSided : Boolean  = false
+}
+
+class UMLStateShape{
+    isTabbed : Boolean = false
+}
+
+class UMLLabel{
+    text : String
+}
+
+class UMLInteractionTableLabel{
+    kind : UMLInteractionTableLabelKind
+}
+
+class UMLStyle{
+    fontName : String[0..1]
+    fontSize : Real[0..1]
+}
+
+enum UMLAssociationOrConnectorOrLinkShapeKind{
+    diamond
+    triangle
+}
+
+enum UMLInteractionDiagramKind{
+    sequence
+    communication
+    overview
+    timing
+    table
+}
+
+enum UMLInteractionTableLabelKind{
+    lifelineClass
+    lifelineInstance
+    constraint
+    messageSendingClass
+    messageSendingInstance
+    diagramIdentifier
+    generatedInstanceName
+    sequenceNumber
+    weakOrder
+    messageName
+    parameter
+    returnValue
+    messageReceivingClass
+    messageReceivingInstance
+    otherEnd
+}
+
+enum UMLNavigabilityNotationKind{
+    always
+    oneWay
+    never
+}
+
+' Generalizations/Specializations
+
+UMLDiagramElement <|-- UMLCompartment
+UMLDiagramElement <|-- UMLDiagram
+    UMLDiagram <|-- UMLDiagramWithAssociations
+        UMLDiagramWithAssociations <|-- UMLStructureDiagram
+            UMLStructureDiagram <|-- UMLClassDiagram
+            UMLStructureDiagram <|-- UMLComponentDiagram
+            UMLStructureDiagram <|-- UMLCompositeStructureDiagram
+            UMLStructureDiagram <|-- UMLDeploymentDiagram
+            UMLStructureDiagram <|-- UMLObjectDiagram
+            UMLStructureDiagram <|-- UMLPackageDiagram
+            UMLStructureDiagram <|-- UMLProfileDiagram
+        UMLDiagramWithAssociations <|-- UMLUseCaseDiagram
+    UMLDiagram <|-- UMLBehaviorDiagram
+        UMLBehaviorDiagram <|-- UMLActivityDiagram
+        UMLBehaviorDiagram <|-- UMLInteractionDiagram
+        UMLBehaviorDiagram <|-- UMLStateMachineDiagram
+        UMLBehaviorDiagram <|-- UMLUseCaseDiagram
+UMLDiagramElement <|-- UMLEdge
+UMLDiagramElement <|-- UMLShape
+    UMLShape <|-- UMLAssociationOrConnectorOrLinkShape
+    UMLShape <|-- UMLCompartmentableShape
+        UMLCompartmentableShape <|-- UMLClassifierShape
+        UMLCompartmentableShape <|-- UMLStateShape
+    UMLShape <|-- UMLLabel
+        UMLLabel <|-- UMLAssociationEndLabel
+        UMLLabel <|-- UMLMultiplicityLabel
+        UMLLabel <|-- UMLKeywordLabel
+        UMLLabel <|-- UMLNameLabel
+        UMLLabel <|-- UMLRedefinesLabel
+        UMLLabel <|-- UMLStereotypePropertyValueLabel
+        UMLLabel <|-- UMLTypedElementLabel
+        UMLLabel <|-- UMLInteractionTableLabel
+
+' Association Ends
+
+UMLDiagramElement "owningElement" *-- "ownedElement" UMLDiagramElement
+
+UMLDiagram "headedDiagram" --> "heading" UMLLabel
+
+UMLDiagramElement "styledElement" *--> "localStyle" UMLStyle
+UMLDiagramElement "styledElement" --> "sharedStyle" UMLStyle
+
+UMLEdge "sourceEdge" --> "source" UMLDiagramElement
+UMLEdge "targetEdge" --> "target" UMLDiagramElement
+
+UMLCompartmentableShape "compartmentedShape" *--> "compartment" UMLCompartment
+UMLCompartment "owningCompartment" *--> "elementInCompartment" UMLDiagramElement
+
+@enduml
