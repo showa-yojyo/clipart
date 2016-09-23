@@ -33,7 +33,7 @@ SOURCE_SVG="$LOCAL_ROOT\svg\mattari-wallpaper.svg"
 DEST_BMP="$MATTARI_ROOT\wallpaper.bmp"
 
 # Cygwin style path
-INKSCAPE='/cygdrive/d/Program Files/Inkscape/inkscape.exe'
+INKSCAPE='/d/Program Files/Inkscape/inkscape.exe'
 
 WORKING_SVG="$(cygpath -aw $(mktemp --suffix=.svg))"
 sed -e "s/{{ VERSION }}/$VERSION/g" "$SOURCE_SVG" > "$WORKING_SVG"
