@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+
 """pattern.py: An example like <Rolling an image> in Pillow document.
 
 usage:
@@ -7,11 +7,12 @@ usage:
   pattern.py FILE
 """
 
-from argparse import ArgumentParser, FileType
+from argparse import (ArgumentParser, FileType)
+import sys
 from PIL import Image
 
-def configure():
-    """Create an object of class ArgumentParser."""
+def parse_args(args):
+    """Return the command line arguments."""
 
     parser = ArgumentParser()
     parser.add_argument(
@@ -19,19 +20,21 @@ def configure():
         type=FileType('rb'),
         help='a PNG file')
 
-    return parser
+    return parser.parse_args(args=args or ('--help',))
 
-def main():
+def main(args=sys.argv[1:]):
+    sys.exit(run(parse_args(args)))
+
+def run(args):
     """Create a wallpaper image from a PNG file."""
-
-    args = configure().parse_args()
 
     src = Image.open(args.file)
     target = swap_quadrants(src)
     paste_with_alpha(target, src, (0, 0), 0x10)
+    target.show()
 
-    answer = input('pattern.py: Save this? [y/n] ')
-    if answer.lower() != 'y':
+    answer = input('Save this? ([y]/n) :')
+    if answer.lower() == 'n':
         return
 
     path = input('pattern.py: Input file name to save ')
@@ -41,7 +44,7 @@ def swap_quadrants(img):
     """Quarter the image and swap two diagonal quadrant pairs."""
 
     boxes = quarter_bbox(img)
-    regions = [img.crop(box) for box in boxes]
+    regions = tuple(img.crop(box) for box in boxes)
 
     target = img.copy()
     paste_with_alpha(target, regions[3], (0, 0), 0x80)

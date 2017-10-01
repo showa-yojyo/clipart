@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+
 """rainbow.py: Generate code snippet of an Inkscape SVG document
 which defines a linear gradient of rainbow spectrum, from red to
 violet.
@@ -11,9 +11,10 @@ Usage:
 
 from argparse import ArgumentParser
 from colorsys import hsv_to_rgb
+import sys
 import numpy as np
 
-__version__ = '1.1.0'
+__version__ = '1.1.1'
 
 # Snippet template of nodes between <linearGradient> and </linearGradient>.
 stop_template = '''\
@@ -22,13 +23,8 @@ stop_template = '''\
          offset="{offset}"
          style="stop-color:#{rgb[0]:02x}{rgb[1]:02x}{rgb[2]:02x};stop-opacity:1" />'''
 
-def configure():
-    """Parse the command line parameters.
-
-    Returns:
-        An instance of argparse.ArgumentParser that stores the command line
-        parameters.
-    """
+def parse_args(args):
+    """Parse the command line parameters."""
 
     parser = ArgumentParser()
     parser.add_argument('--version', action='version', version=__version__)
@@ -51,12 +47,11 @@ def configure():
         metavar='{0.0:1.0}',
         help='lightness (a.k.a. value or brightness) of HSL')
 
-    return parser
+    return parser.parse_args(args=args)
 
-def main():
+def run(args, stdout=sys.stdout):
     """The main function."""
 
-    args = configure().parse_args()
     s, v = args.saturation, args.lightness
 
     nodes = np.linspace(0, 1, args.interval)
@@ -67,7 +62,11 @@ def main():
 
     for (i, (offset, rgb)) in enumerate(zip(nodes, colors)):
         print(stop_template.format(
-            offset=offset, id=i, rgb=rgb))
+            offset=offset, id=i, rgb=rgb),
+              file=stdout)
+
+def main(args=sys.argv[1:]):
+    sys.exit(run(parse_args(args)))
 
 if __name__ == '__main__':
     main()
