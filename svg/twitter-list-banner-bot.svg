@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1500"
+   height="500"
+   viewBox="0 0 1500 500"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="twitter-list-banner-bot.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title3522">Fantasy Land</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.81733333"
+     inkscape:cx="662.52039"
+     inkscape:cy="250.20392"
+     inkscape:window-width="1366"
+     inkscape:window-height="684"
+     inkscape:window-x="-8"
+     inkscape:window-y="53"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter3053"
+       x="-0.017921594"
+       y="-0.077062858"
+       width="1.0439894"
+       height="1.1891543">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3043" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3045" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur3047" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset3049" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3051" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke:#ffffff;stroke-width:12;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter3053)"
+       id="rect327"
+       width="736.54163"
+       height="171.28874"
+       x="378.72916"
+       y="161.35564"
+       ry="30.587276" />
+    <text
+       xml:space="preserve"
+       style="font-size:96px;text-align:center;word-spacing:-10px;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+       x="748.55994"
+       y="275.776"
+       id="text115"><tspan
+         sodipodi:role="line"
+         id="tspan113"
+         x="748.55994"
+         y="275.776"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Corporate Mincho ver2';-inkscape-font-specification:'Corporate Mincho ver2';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+         dx="0 0 0 0 0 0 0 0 0">Fantasy Land</tspan></text>
+  </g>
+  <metadata
+     id="metadata3520">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Fantasy Land</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
