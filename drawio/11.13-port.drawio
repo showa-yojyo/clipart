@@ -1,0 +1,36 @@
+<mxfile host="Electron" modified="2023-08-04T04:03:02.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="wTBe6clOdxwZzD3uvE3k" version="21.6.5" type="device">
+  <diagram name="Page-1" id="YFalaHPA3wu9gJBgBYuo">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CPT9QnR02FKOzD0jUaDp-1" value="&lt;b&gt;OrderProcess&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CPT9QnR02FKOzD0jUaDp-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="155" y="55" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CPT9QnR02FKOzD0jUaDp-2" value="Online&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;Services&lt;/span&gt;&lt;/div&gt;" style="html=1;rounded=0;align=left;verticalAlign=bottom;labelPosition=right;verticalLabelPosition=top;fontSize=11;" vertex="1" parent="CPT9QnR02FKOzD0jUaDp-5">
+          <mxGeometry width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CPT9QnR02FKOzD0jUaDp-3" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;" edge="1" source="CPT9QnR02FKOzD0jUaDp-2" target="CPT9QnR02FKOzD0jUaDp-4" parent="CPT9QnR02FKOzD0jUaDp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPT9QnR02FKOzD0jUaDp-4" value="OrderEntry,&lt;br&gt;Tracking" style="ellipse;html=1;fontSize=11;align=left;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=right;verticalLabelPosition=top;flipH=1;" vertex="1" parent="CPT9QnR02FKOzD0jUaDp-5">
+          <mxGeometry x="52" y="1" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CPT9QnR02FKOzD0jUaDp-11" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="CPT9QnR02FKOzD0jUaDp-2" target="CPT9QnR02FKOzD0jUaDp-12" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="135" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPT9QnR02FKOzD0jUaDp-12" value="Payment" style="shape=requiredInterface;html=1;fontSize=11;align=left;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=right;verticalLabelPosition=top;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="90" width="5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CPT9QnR02FKOzD0jUaDp-13" value="&lt;b&gt;Figure 11.13 Port notation showing multiple provided Interfaces&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="390" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

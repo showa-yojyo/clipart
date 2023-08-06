@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2023-08-06T13:21:33.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="3-alLKKAemTKZ6PY-rlD" version="21.6.5" type="device">
+  <diagram name="Page-1" id="54MNODyKndPqk-gurX4-">
+    <mxGraphModel dx="978" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="flQNT9FrmD4RMxMTmG81-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=openThin;endFill=0;endSize=12;" edge="1" parent="1" source="flQNT9FrmD4RMxMTmG81-6" target="flQNT9FrmD4RMxMTmG81-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-2" value="+a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flQNT9FrmD4RMxMTmG81-1">
+          <mxGeometry x="-0.83" y="-1" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-3" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flQNT9FrmD4RMxMTmG81-1">
+          <mxGeometry x="-0.83" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-4" value="+/b {union}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flQNT9FrmD4RMxMTmG81-1">
+          <mxGeometry x="0.6" y="1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-5" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flQNT9FrmD4RMxMTmG81-1">
+          <mxGeometry x="0.75" y="-2" relative="1" as="geometry">
+            <mxPoint x="4" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-6" value="A" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=12;" edge="1" parent="1" source="flQNT9FrmD4RMxMTmG81-11" target="flQNT9FrmD4RMxMTmG81-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endSize=12;endArrow=openThin;endFill=0;" edge="1" parent="1" source="flQNT9FrmD4RMxMTmG81-11" target="flQNT9FrmD4RMxMTmG81-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-9" value="+d {subsets b}" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flQNT9FrmD4RMxMTmG81-8">
+          <mxGeometry x="0.74" relative="1" as="geometry">
+            <mxPoint x="11" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-10" value="*" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flQNT9FrmD4RMxMTmG81-8">
+          <mxGeometry x="0.71" y="-1" relative="1" as="geometry">
+            <mxPoint x="13" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-11" value="C" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;endSize=12;" edge="1" parent="1" source="flQNT9FrmD4RMxMTmG81-13" target="flQNT9FrmD4RMxMTmG81-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-13" value="D" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-14" value="B" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-15" value="&lt;b&gt;Figure 11.32 Derived supersets (union)&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="flQNT9FrmD4RMxMTmG81-18" value="&lt;div style=&quot;&quot;&gt;The attribute A::b is derived by being the strict union of all of the&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;attributes that subset it. In this case there is just one of these, C::d.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;So for an instance of the Class C, d is a subset of b,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;and b is derived from d.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="430" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

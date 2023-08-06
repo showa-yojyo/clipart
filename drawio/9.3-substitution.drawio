@@ -1,0 +1,22 @@
+<mxfile host="Electron" modified="2023-08-01T13:50:37.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="ObfYPO_tBWuyYP-290ry" version="21.6.5" type="device">
+  <diagram name="Page-1" id="bWl-sujWc1_e4-YHme_6">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YVBSQS5N8A5pGZTZn56Y-1" value="&lt;b&gt;Window&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YVBSQS5N8A5pGZTZn56Y-2" value="&lt;b&gt;ResizableWindow&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YVBSQS5N8A5pGZTZn56Y-3" value="«substitute»" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YVBSQS5N8A5pGZTZn56Y-2" target="YVBSQS5N8A5pGZTZn56Y-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="270" as="sourcePoint" />
+            <mxPoint x="530" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

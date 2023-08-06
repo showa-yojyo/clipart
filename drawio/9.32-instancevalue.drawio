@@ -1,0 +1,24 @@
+<mxfile host="Electron" modified="2023-08-02T14:13:14.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="TDGe9JMBCMWIChPr43kL" version="21.6.5" type="device">
+  <diagram name="Page-1" id="a58nmf0DHkEaADN_5qgN">
+    <mxGraphModel dx="864" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yRtZE0SuogPByFkDgGm0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=openThin;endFill=0;endSize=12;" edge="1" parent="1" source="yRtZE0SuogPByFkDgGm0-1" target="yRtZE0SuogPByFkDgGm0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yRtZE0SuogPByFkDgGm0-4" value="size" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yRtZE0SuogPByFkDgGm0-3">
+          <mxGeometry x="0.475" y="-1" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRtZE0SuogPByFkDgGm0-1" value="&lt;u&gt;:Window&lt;/u&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yRtZE0SuogPByFkDgGm0-2" value="&lt;u&gt;medium : Area&lt;/u&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

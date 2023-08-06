@@ -1,0 +1,54 @@
+<mxfile host="Electron" modified="2023-08-05T13:23:24.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="fL-aZfZ2SewDTDhO1Z3A" version="21.6.5" type="device">
+  <diagram name="Page-1" id="ZfuC0e50NSOTRn3sxBAv">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CPnAnZwY85VbWW5xjXOZ-1" value="Car" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CPnAnZwY85VbWW5xjXOZ-2" value="internal structure" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;whiteSpace=wrap;" vertex="1" parent="CPnAnZwY85VbWW5xjXOZ-1">
+          <mxGeometry y="30" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPnAnZwY85VbWW5xjXOZ-3" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=0;collapsible=0;marginBottom=0;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="CPnAnZwY85VbWW5xjXOZ-1">
+          <mxGeometry y="60" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CPnAnZwY85VbWW5xjXOZ-4" value="leftFront: Wheel" style="html=1;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="CPnAnZwY85VbWW5xjXOZ-3">
+          <mxGeometry width="110" height="30" relative="1" as="geometry">
+            <mxPoint x="15" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPnAnZwY85VbWW5xjXOZ-5" value="rightFront: Wheel" style="html=1;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="CPnAnZwY85VbWW5xjXOZ-3">
+          <mxGeometry width="120" height="30" relative="1" as="geometry">
+            <mxPoint x="210" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPnAnZwY85VbWW5xjXOZ-6" value="frontaxle" style="edgeStyle=none;endArrow=none;verticalAlign=bottom;labelBackgroundColor=none;endSize=12;html=1;align=center;endFill=0;entryX=0;entryY=0.5;spacingLeft=4;rounded=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="CPnAnZwY85VbWW5xjXOZ-3" source="CPnAnZwY85VbWW5xjXOZ-4" target="CPnAnZwY85VbWW5xjXOZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118" y="35" as="sourcePoint" />
+            <mxPoint x="198" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPnAnZwY85VbWW5xjXOZ-7" value="leftRear: Wheel" style="html=1;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="CPnAnZwY85VbWW5xjXOZ-3">
+          <mxGeometry width="110" height="30" relative="1" as="geometry">
+            <mxPoint x="15" y="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPnAnZwY85VbWW5xjXOZ-8" value="rightRear: Wheel" style="html=1;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="CPnAnZwY85VbWW5xjXOZ-3">
+          <mxGeometry width="120" height="30" relative="1" as="geometry">
+            <mxPoint x="210" y="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPnAnZwY85VbWW5xjXOZ-9" value="rearaxle" style="edgeStyle=none;endArrow=none;verticalAlign=bottom;labelBackgroundColor=none;endSize=12;html=1;align=center;endFill=0;entryX=0;entryY=0.5;spacingLeft=4;rounded=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="CPnAnZwY85VbWW5xjXOZ-7" target="CPnAnZwY85VbWW5xjXOZ-8" parent="CPnAnZwY85VbWW5xjXOZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118" y="105" as="sourcePoint" />
+            <mxPoint x="198" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPnAnZwY85VbWW5xjXOZ-10" value="&lt;b&gt;Figure 11.19 Connectors and Parts&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

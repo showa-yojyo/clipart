@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2023-08-04T03:55:13.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="eTU4YFHfPcJS7WiySJNM" version="21.6.5" type="device">
+  <diagram name="Page-1" id="uAVok0aW6yywA-THMaf2">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZV7kqnXYr2hzzQNcxCco-7" value="&lt;b&gt;Engine&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="170" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZV7kqnXYr2hzzQNcxCco-18" value="IPowerTrain" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;startArrow=oval;startFill=0;startSize=8;endArrow=none;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;align=left;" parent="1" target="ZV7kqnXYr2hzzQNcxCco-7" edge="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="175" y="180" as="sourcePoint" />
+            <mxPoint x="455" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZV7kqnXYr2hzzQNcxCco-19" value="IFeedback" style="html=1;verticalAlign=top;labelBackgroundColor=none;startArrow=halfCircle;startFill=0;startSize=2;endArrow=none;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;align=left;" parent="1" target="ZV7kqnXYr2hzzQNcxCco-7" edge="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="175" y="230" as="sourcePoint" />
+            <mxPoint x="145" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NB9CTaoQht4SxaVSOCD9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ZV7kqnXYr2hzzQNcxCco-20" target="NB9CTaoQht4SxaVSOCD9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZV7kqnXYr2hzzQNcxCco-20" value="p : PowerTrain" style="fontStyle=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;" parent="1" vertex="1">
+          <mxGeometry x="140" y="200" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="NB9CTaoQht4SxaVSOCD9-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="113" y="202" width="12" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="NB9CTaoQht4SxaVSOCD9-4" value="&lt;b&gt;Figure 11.12 Behavior Port notation&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="220" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,80 @@
+<mxfile host="Electron" modified="2023-08-05T14:44:18.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="txeVADx2OTzXtoOl82HB" version="21.6.5" type="device">
+  <diagram name="Page-1" id="a5c8etQ80UlGGGf-UubQ">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ugTnfEjZp3vnDmoZ3g3l-1" target="ugTnfEjZp3vnDmoZ3g3l-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-15" value="season" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ugTnfEjZp3vnDmoZ3g3l-5">
+          <mxGeometry x="0.5" y="1" relative="1" as="geometry">
+            <mxPoint x="-23" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-16" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ugTnfEjZp3vnDmoZ3g3l-5">
+          <mxGeometry x="0.5" y="-3" relative="1" as="geometry">
+            <mxPoint x="6" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ugTnfEjZp3vnDmoZ3g3l-1" target="ugTnfEjZp3vnDmoZ3g3l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-10" value="team" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ugTnfEjZp3vnDmoZ3g3l-6">
+          <mxGeometry x="0.5" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-11" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ugTnfEjZp3vnDmoZ3g3l-6">
+          <mxGeometry x="0.6" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ugTnfEjZp3vnDmoZ3g3l-1" target="ugTnfEjZp3vnDmoZ3g3l-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-12" value="goalie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ugTnfEjZp3vnDmoZ3g3l-7">
+          <mxGeometry x="0.45" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-13" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ugTnfEjZp3vnDmoZ3g3l-7">
+          <mxGeometry x="0.4" y="2" relative="1" as="geometry">
+            <mxPoint x="13" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-1" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-2" value="&lt;b&gt;Team&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-3" value="&lt;b&gt;Year&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=openThin;endFill=0;endSize=12;" edge="1" parent="1" source="ugTnfEjZp3vnDmoZ3g3l-4" target="ugTnfEjZp3vnDmoZ3g3l-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-14" value="year" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ugTnfEjZp3vnDmoZ3g3l-9">
+          <mxGeometry x="0.6727" y="-2" relative="1" as="geometry">
+            <mxPoint x="-4" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-17" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ugTnfEjZp3vnDmoZ3g3l-9">
+          <mxGeometry x="0.7364" relative="1" as="geometry">
+            <mxPoint x="-8" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-4" value="&lt;b&gt;Player&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-18" value="PlayerInYear" style="triangle;aspect=fixed;fillColor=strokeColor;direction=west;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="365" y="80" width="6" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="ugTnfEjZp3vnDmoZ3g3l-20" value="&lt;b&gt;Figure 11.27 Binary and ternary Associations&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="280" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

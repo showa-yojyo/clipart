@@ -1,0 +1,16 @@
+<mxfile host="Electron" modified="2023-08-02T14:34:54.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="IRYz9pA3wWFiMmbm9l69" version="21.6.5" type="device">
+  <diagram name="Page-1" id="XYof5n0WN9oXII7QhHhk">
+    <mxGraphModel dx="864" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fw3c0Ck-TAC-3pYEw5KM-1" value="«enumeration»&lt;br&gt;&lt;b&gt;VisibilityKind&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fw3c0Ck-TAC-3pYEw5KM-2" value="public&lt;br&gt;private&lt;br&gt;protected&lt;br&gt;package" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fw3c0Ck-TAC-3pYEw5KM-1">
+          <mxGeometry y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

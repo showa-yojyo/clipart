@@ -1,0 +1,22 @@
+<mxfile host="Electron" modified="2023-08-05T14:08:51.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="UsXaRehETksqEhiJ6Oyt" version="21.6.5" type="device">
+  <diagram name="Page-1" id="ltI_y4su_BhwY9Hmrte7">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9wfUThA35_65btMWcCNg-1" value="«metaclass»&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=48;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9wfUThA35_65btMWcCNg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endSize=10;" edge="1" parent="1" source="9wfUThA35_65btMWcCNg-3" target="9wfUThA35_65btMWcCNg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9wfUThA35_65btMWcCNg-3" value="«stereotype»&lt;br&gt;&lt;b&gt;Remote&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=48;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9wfUThA35_65btMWcCNg-5" value="&lt;b&gt;Figure 11.24 Showing that the extended Class is a metaclass&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="370" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

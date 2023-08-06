@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2023-07-30T14:39:46.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="IXKxKDlh4qsjxzh3voAD" version="21.6.5" type="device">
+  <diagram name="Page-1" id="iVKCL4uKUBTiV6Z-jCml">
+    <mxGraphModel dx="864" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L23wMsZLqWfUm6GQSvft-1" value="Types" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L23wMsZLqWfUm6GQSvft-2" value="«datatype»&lt;br&gt;Real" style="html=1;whiteSpace=wrap;" vertex="1" parent="L23wMsZLqWfUm6GQSvft-1">
+          <mxGeometry width="110" height="30" relative="1" as="geometry">
+            <mxPoint x="20" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L23wMsZLqWfUm6GQSvft-3" value="Shapes" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L23wMsZLqWfUm6GQSvft-7" value="&lt;b&gt;Circle&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="L23wMsZLqWfUm6GQSvft-3">
+          <mxGeometry x="20" y="45" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L23wMsZLqWfUm6GQSvft-8" value="radius: Double" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="L23wMsZLqWfUm6GQSvft-7">
+          <mxGeometry y="20" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="L23wMsZLqWfUm6GQSvft-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=openThin;endFill=0;" edge="1" parent="1" target="L23wMsZLqWfUm6GQSvft-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L23wMsZLqWfUm6GQSvft-6" value="«import»&lt;br&gt;Double" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L23wMsZLqWfUm6GQSvft-5">
+          <mxGeometry x="-0.0824" y="1" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,28 @@
+<mxfile host="Electron" modified="2023-08-01T14:30:36.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="Gj8glA5AjFFR69d3AZrX" version="21.6.5" type="device">
+  <diagram name="Page-1" id="78NXfhnAjyYnchGwNUTM">
+    <mxGraphModel dx="880" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ge7kAoEWmFQ5FXdFwvyU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;endSize=12;" edge="1" parent="1" source="ge7kAoEWmFQ5FXdFwvyU-1" target="ge7kAoEWmFQ5FXdFwvyU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge7kAoEWmFQ5FXdFwvyU-1" value="&lt;b&gt;Window&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ge7kAoEWmFQ5FXdFwvyU-2" value="&lt;b&gt;Area&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ge7kAoEWmFQ5FXdFwvyU-4" value="size" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="191" y="-4" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ge7kAoEWmFQ5FXdFwvyU-5" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="197" y="15" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ge7kAoEWmFQ5FXdFwvyU-6" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="10" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
