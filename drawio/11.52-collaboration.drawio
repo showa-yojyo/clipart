@@ -1,0 +1,38 @@
+<mxfile host="Electron" modified="2023-08-08T13:38:49.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="7bBk29hB3QheanZjFrPj" version="21.6.5" type="device">
+  <diagram name="Page-1" id="gINGcwHKH5mLMmQqC_T-">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_0WeJoMN5Hcn0UmyKtmU-1" value="" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry y="0.0033333333333445125" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WeJoMN5Hcn0UmyKtmU-2" value="&lt;span&gt;Sale&lt;/span&gt;" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="_0WeJoMN5Hcn0UmyKtmU-1">
+          <mxGeometry width="390" height="16.956521739130434" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WeJoMN5Hcn0UmyKtmU-3" value="" style="line;strokeWidth=1;fillColor=none;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;dashed=1;resizeWidth=1;" vertex="1" parent="_0WeJoMN5Hcn0UmyKtmU-1">
+          <mxGeometry x="56.333333333333336" y="16.956521739130434" width="277.3333333333333" height="4.521739130434783" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WeJoMN5Hcn0UmyKtmU-4" value="" style="group" vertex="1" connectable="0" parent="_0WeJoMN5Hcn0UmyKtmU-1">
+          <mxGeometry x="20" y="52" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WeJoMN5Hcn0UmyKtmU-5" value="buyer" style="html=1;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="_0WeJoMN5Hcn0UmyKtmU-4">
+          <mxGeometry width="120" height="30" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0WeJoMN5Hcn0UmyKtmU-6" value="seller" style="html=1;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" vertex="1" parent="_0WeJoMN5Hcn0UmyKtmU-4">
+          <mxGeometry width="150" height="30" relative="1" as="geometry">
+            <mxPoint x="200" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0WeJoMN5Hcn0UmyKtmU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="_0WeJoMN5Hcn0UmyKtmU-4" source="_0WeJoMN5Hcn0UmyKtmU-5" target="_0WeJoMN5Hcn0UmyKtmU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_0WeJoMN5Hcn0UmyKtmU-8" value="&lt;b&gt;Figure 11.52 The Sale Collaboration&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="140" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
