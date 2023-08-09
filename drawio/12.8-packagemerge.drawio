@@ -1,0 +1,38 @@
+<mxfile host="Electron" modified="2023-08-09T02:54:15.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="2z3q967uu_0Ug3wlmojn" version="21.6.5" type="device">
+  <diagram name="Page-1" id="WdFfc1TMBykDuvppdllY">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vPF1APbio-HZbS6RBeoW-1" value="R" style="shape=folder;fontStyle=1;tabWidth=60;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPF1APbio-HZbS6RBeoW-2" value="S" style="shape=folder;fontStyle=1;tabWidth=60;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPF1APbio-HZbS6RBeoW-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=120;entryDy=65;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="vPF1APbio-HZbS6RBeoW-3" target="vPF1APbio-HZbS6RBeoW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vPF1APbio-HZbS6RBeoW-7" value="«merge»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vPF1APbio-HZbS6RBeoW-6">
+          <mxGeometry x="0.4415" y="-3" relative="1" as="geometry">
+            <mxPoint x="45" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPF1APbio-HZbS6RBeoW-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=65;exitPerimeter=0;entryX=0;entryY=0;entryDx=120;entryDy=50;entryPerimeter=0;labelBackgroundColor=none;endArrow=open;verticalAlign=bottom;startArrow=none;endFill=0;startFill=0;endSize=8;dashed=1;" edge="1" parent="1" source="vPF1APbio-HZbS6RBeoW-3" target="vPF1APbio-HZbS6RBeoW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vPF1APbio-HZbS6RBeoW-9" value="«merge»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="vPF1APbio-HZbS6RBeoW-8">
+          <mxGeometry x="0.0271" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPF1APbio-HZbS6RBeoW-3" value="T" style="shape=folder;fontStyle=1;tabWidth=60;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPF1APbio-HZbS6RBeoW-10" value="&lt;b&gt;Figure 12.8 Introducing Additional Package Merges&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="220" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

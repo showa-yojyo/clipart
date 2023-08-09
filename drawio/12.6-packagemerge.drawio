@@ -1,0 +1,101 @@
+<mxfile host="Electron" modified="2023-08-09T02:47:59.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="X0aG24i2yN_XZYBeaIn7" version="21.6.5" type="device">
+  <diagram name="Page-1" id="MOm2UJmf7Yo5qnORTjW0">
+    <mxGraphModel dx="864" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=30;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;endArrow=open;verticalAlign=bottom;startArrow=none;endFill=0;startFill=0;endSize=8;dashed=1;" edge="1" parent="1" source="Fe_OLmjmxG37mQIJ0LLo-14" target="Fe_OLmjmxG37mQIJ0LLo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-39" value="«merge»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fe_OLmjmxG37mQIJ0LLo-36">
+          <mxGeometry x="-0.5597" y="-1" relative="1" as="geometry">
+            <mxPoint x="26" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-14" value="S" style="shape=folder;fontStyle=1;tabWidth=50;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-15" value="&lt;b&gt;D&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Fe_OLmjmxG37mQIJ0LLo-14">
+          <mxGeometry width="50" height="30" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-1" value="P" style="shape=folder;fontStyle=1;tabWidth=50;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="110" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-2" value="&lt;b&gt;A&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Fe_OLmjmxG37mQIJ0LLo-1">
+          <mxGeometry width="50" height="30" relative="1" as="geometry">
+            <mxPoint x="30" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-3" value="&lt;b&gt;B&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Fe_OLmjmxG37mQIJ0LLo-1">
+          <mxGeometry width="50" height="30" relative="1" as="geometry">
+            <mxPoint x="30" y="145" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Fe_OLmjmxG37mQIJ0LLo-32" target="Fe_OLmjmxG37mQIJ0LLo-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;endSize=12;" edge="1" parent="1" source="Fe_OLmjmxG37mQIJ0LLo-3" target="Fe_OLmjmxG37mQIJ0LLo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-5" value="Q" style="shape=folder;fontStyle=1;tabWidth=50;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-6" value="&lt;b&gt;A&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Fe_OLmjmxG37mQIJ0LLo-5">
+          <mxGeometry width="50" height="30" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-7" value="&lt;b&gt;C&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Fe_OLmjmxG37mQIJ0LLo-5">
+          <mxGeometry width="50" height="30" relative="1" as="geometry">
+            <mxPoint x="120" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-32" value="&lt;b&gt;A&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Fe_OLmjmxG37mQIJ0LLo-5">
+          <mxGeometry width="50" height="30" relative="1" as="geometry">
+            <mxPoint x="20" y="280" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-33" value="&lt;b&gt;C&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Fe_OLmjmxG37mQIJ0LLo-5">
+          <mxGeometry width="50" height="30" relative="1" as="geometry">
+            <mxPoint x="120" y="280" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Fe_OLmjmxG37mQIJ0LLo-6" target="Fe_OLmjmxG37mQIJ0LLo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=30;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="Fe_OLmjmxG37mQIJ0LLo-9" target="Fe_OLmjmxG37mQIJ0LLo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-13" value="«merge»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fe_OLmjmxG37mQIJ0LLo-12">
+          <mxGeometry x="0.1544" y="1" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=30;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;endArrow=open;verticalAlign=bottom;startArrow=none;endFill=0;startFill=0;endSize=8;dashed=1;" edge="1" parent="1" source="Fe_OLmjmxG37mQIJ0LLo-9" target="Fe_OLmjmxG37mQIJ0LLo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-38" value="«merge»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fe_OLmjmxG37mQIJ0LLo-37">
+          <mxGeometry x="0.6323" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-9" value="R" style="shape=folder;fontStyle=1;tabWidth=50;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="240" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-10" value="&lt;b&gt;A&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Fe_OLmjmxG37mQIJ0LLo-9">
+          <mxGeometry width="50" height="30" relative="1" as="geometry">
+            <mxPoint x="30" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;endSize=12;" edge="1" parent="1" source="Fe_OLmjmxG37mQIJ0LLo-32" target="Fe_OLmjmxG37mQIJ0LLo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe_OLmjmxG37mQIJ0LLo-40" value="&lt;b&gt;Figure 12.6 Simple Example of Package Merge&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="320" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

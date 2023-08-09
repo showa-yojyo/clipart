@@ -1,0 +1,28 @@
+<mxfile host="Electron" modified="2023-08-09T03:49:12.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="LCgKDSUv0BBYhV0RS6d5" version="21.6.5" type="device">
+  <diagram name="Page-1" id="A9WSbuizUBWRxnycMN6q">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9tr9vShWNmY_Da5mVhLC-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;endSize=8;" edge="1" parent="1" source="9tr9vShWNmY_Da5mVhLC-1" target="9tr9vShWNmY_Da5mVhLC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9tr9vShWNmY_Da5mVhLC-1" value="Client tier" style="shape=folder;fontStyle=1;tabWidth=30;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;folderSymbol=triangle;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9tr9vShWNmY_Da5mVhLC-5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;endSize=8;" edge="1" parent="1" source="9tr9vShWNmY_Da5mVhLC-2" target="9tr9vShWNmY_Da5mVhLC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9tr9vShWNmY_Da5mVhLC-2" value="Business tier" style="shape=folder;fontStyle=1;tabWidth=30;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;folderSymbol=triangle;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9tr9vShWNmY_Da5mVhLC-4" value="Data tier" style="shape=folder;fontStyle=1;tabWidth=30;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;folderSymbol=triangle;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9tr9vShWNmY_Da5mVhLC-6" value="&lt;b&gt;Figure 12.10 Three Models Representing Parts of a System&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="80" width="330" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
