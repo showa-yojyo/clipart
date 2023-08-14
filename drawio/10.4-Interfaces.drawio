@@ -1,0 +1,190 @@
+<mxfile host="Electron" modified="2023-08-14T13:43:48.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="iFMmUyWzrJLNIQSB9s8G" version="21.6.8" type="device" pages="5">
+  <diagram name="10.8" id="z8ahC6TJhPVbdyxyvAvL">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j0SfJ29VAeDDEaYO7BTL-1" value="&lt;b&gt;ProximitySensor&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j0SfJ29VAeDDEaYO7BTL-2" value="ISensor" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;startArrow=oval;startFill=0;startSize=8;endArrow=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="20" y="20" as="sourcePoint" />
+            <mxPoint x="100" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIi72qEYB1m0_1j-Ny3--1" value="&lt;b&gt;Figure 10.8 ISensor is a provided Interface of ProximitySensor&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="40" width="350" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="t-7vkQRehIuyUq1OWBUZ" name="10.9">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Yoi-gdw0vovMsw98rGM-1" value="&lt;b&gt;ProximitySensor&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9Yoi-gdw0vovMsw98rGM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;endSize=12;" edge="1" parent="1" source="9Yoi-gdw0vovMsw98rGM-3" target="9Yoi-gdw0vovMsw98rGM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Yoi-gdw0vovMsw98rGM-3" value="&lt;b&gt;ProximitySensor&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9Yoi-gdw0vovMsw98rGM-4" value="^ ISensor" style="html=1;verticalAlign=top;labelBackgroundColor=none;startArrow=oval;startFill=0;startSize=8;endArrow=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="-30" relative="1" as="geometry">
+            <mxPoint x="200" y="140" as="sourcePoint" />
+            <mxPoint x="120" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qlRkMouSi6wxIDOAwAId-1" value="&lt;b&gt;Figure 10.9 ISensor, a provided Interface of ProximitySensor, is shown as inherited by CapacitiveSensor&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="160" width="570" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3rbvj5tgg_bOG3rUHmvJ" name="10.10">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XkH9AGOGgjSkywaOT8vE-1" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=halfCircle;endFill=0;endSize=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XkH9AGOGgjSkywaOT8vE-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="10" y="230" as="sourcePoint" />
+            <mxPoint x="160" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkH9AGOGgjSkywaOT8vE-2" value="&lt;b&gt;TheftAlerm&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH9AGOGgjSkywaOT8vE-3" value="Figure 10.10 ISensor is a required Interface of TheftAlarm" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry y="40" width="350" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XqiJjm161RR9OuvCGPvt" name="10.11">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zQJkt0Uli7HXzWN9n2t2-1" value="&lt;b&gt;TheftAlarm&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="35" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zQJkt0Uli7HXzWN9n2t2-2" value="«interface»&lt;br&gt;&lt;b&gt;Isensor&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="215" y="10" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zQJkt0Uli7HXzWN9n2t2-3" value="activate()&lt;br&gt;read()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="zQJkt0Uli7HXzWN9n2t2-2">
+          <mxGeometry y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zQJkt0Uli7HXzWN9n2t2-4" value="&lt;b&gt;ProximitySensor&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="455" y="35" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zQJkt0Uli7HXzWN9n2t2-5" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zQJkt0Uli7HXzWN9n2t2-4" target="zQJkt0Uli7HXzWN9n2t2-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="345" y="260" as="sourcePoint" />
+            <mxPoint x="505" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQJkt0Uli7HXzWN9n2t2-6" value="«use»" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zQJkt0Uli7HXzWN9n2t2-1" target="zQJkt0Uli7HXzWN9n2t2-2">
+          <mxGeometry x="0.0077" width="160" relative="1" as="geometry">
+            <mxPoint x="105" y="50" as="sourcePoint" />
+            <mxPoint x="245" y="49.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQJkt0Uli7HXzWN9n2t2-7" value="Figure 10.11 Alternative notation for required and provided Interface" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="410" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YhCT0FJ5jKKvDT0L6D4F" name="10.12">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;endSize=12;" edge="1" parent="1" source="4L9JvKQUU5R0SEG2Vm73-6" target="4L9JvKQUU5R0SEG2Vm73-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-2" value="+theAlarm" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4L9JvKQUU5R0SEG2Vm73-1">
+          <mxGeometry x="0.1852" relative="1" as="geometry">
+            <mxPoint x="-22" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-3" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4L9JvKQUU5R0SEG2Vm73-1">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint x="-58" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-4" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4L9JvKQUU5R0SEG2Vm73-1">
+          <mxGeometry x="-0.6444" relative="1" as="geometry">
+            <mxPoint x="13" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-5" value="+theSensor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4L9JvKQUU5R0SEG2Vm73-1">
+          <mxGeometry x="-0.6148" y="1" relative="1" as="geometry">
+            <mxPoint x="-8" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-6" value="«interface»&lt;br&gt;&lt;b&gt;Isensor&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="525" y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-7" value="activate()&lt;br&gt;read()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="4L9JvKQUU5R0SEG2Vm73-6">
+          <mxGeometry y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;endSize=12;targetPerimeterSpacing=4;" edge="1" parent="1" source="4L9JvKQUU5R0SEG2Vm73-12" target="4L9JvKQUU5R0SEG2Vm73-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-9" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4L9JvKQUU5R0SEG2Vm73-8">
+          <mxGeometry x="0.4" y="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-10" value="+theBuzzer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4L9JvKQUU5R0SEG2Vm73-8">
+          <mxGeometry x="0.02" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-11" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4L9JvKQUU5R0SEG2Vm73-8">
+          <mxGeometry x="-0.66" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-12" value="«interface»&lt;br&gt;&lt;b&gt;IAlarm&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="35" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-13" value="notify()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="4L9JvKQUU5R0SEG2Vm73-12">
+          <mxGeometry y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-14" value="«interface»&lt;br&gt;&lt;b&gt;IBuzzer&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-15" value="volume : Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="4L9JvKQUU5R0SEG2Vm73-14">
+          <mxGeometry y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="4L9JvKQUU5R0SEG2Vm73-14">
+          <mxGeometry y="70" width="140" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-17" value="start()&lt;br&gt;reset()&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="4L9JvKQUU5R0SEG2Vm73-14">
+          <mxGeometry y="80" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-18" value="Figure 10.12 A set of collaborating Interfaces" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" y="130" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-19" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="512" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-20" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4L9JvKQUU5R0SEG2Vm73-21" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="143" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
