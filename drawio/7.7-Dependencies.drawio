@@ -1,0 +1,104 @@
+<mxfile host="Electron" modified="2023-08-14T03:11:21.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="iQJvfLPow7LF7DIr9NkJ" version="21.6.8" type="device" pages="4">
+  <diagram name="7.18" id="AVX9XgGXYvlCAjr2DV2e">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v43Onr5ykAxE8IYJDJ8J-1" value="NamedElement1" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v43Onr5ykAxE8IYJDJ8J-2" value="NamedElement2" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v43Onr5ykAxE8IYJDJ8J-3" value="&lt;div&gt;«keywordOrStereotypeName»&lt;/div&gt;&lt;div&gt;dependencyName&lt;/div&gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endSize=12;" edge="1" parent="1" source="v43Onr5ykAxE8IYJDJ8J-1" target="v43Onr5ykAxE8IYJDJ8J-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="45" as="sourcePoint" />
+            <mxPoint x="270" y="44.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v43Onr5ykAxE8IYJDJ8J-4" value="&lt;b&gt;Figure 7.18 Notation for a Dependency between two elements&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="70" width="340" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GzHcZ-AzKYH8O04BReOV" name="7.19">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_xoNd-q2XynYcJKWpoRw-1" value="CarFactory" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_xoNd-q2XynYcJKWpoRw-2" value="Car" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_xoNd-q2XynYcJKWpoRw-3" value="«instantiate»" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endSize=12;" edge="1" parent="1" source="_xoNd-q2XynYcJKWpoRw-1" target="_xoNd-q2XynYcJKWpoRw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="25" as="sourcePoint" />
+            <mxPoint x="270" y="24.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_xoNd-q2XynYcJKWpoRw-4" value="&lt;b&gt;Figure 7.19 An example of an «Instantiate» Dependency&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="50" width="310" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="R1fuRD7EvVFMdhy6P8HF" name="7.20">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p0qoMTA7mXyHL-Bzv7cV-1" value="Order" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p0qoMTA7mXyHL-Bzv7cV-2" value="Line&lt;br&gt;Item" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="5" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p0qoMTA7mXyHL-Bzv7cV-3" value="«use»" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endSize=12;" edge="1" parent="1" source="p0qoMTA7mXyHL-Bzv7cV-1" target="p0qoMTA7mXyHL-Bzv7cV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="25" as="sourcePoint" />
+            <mxPoint x="270" y="24.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p0qoMTA7mXyHL-Bzv7cV-4" value="&lt;b&gt;Figure 7.20 An example of a «use» Dependency&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="50" width="270" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ty7BtY0HAJfFGylVIrD7" name="7.21">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0xWmAYFpe4VVVlx3Cu_2-1" value="Business" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0xWmAYFpe4VVVlx3Cu_2-2" value="Owner" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0xWmAYFpe4VVVlx3Cu_2-3" value="Employee" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0xWmAYFpe4VVVlx3Cu_2-4" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endSize=12;" edge="1" parent="1" source="0xWmAYFpe4VVVlx3Cu_2-2" target="0xWmAYFpe4VVVlx3Cu_2-1">
+          <mxGeometry width="100" height="75" relative="1" as="geometry">
+            <mxPoint x="60" y="120" as="sourcePoint" />
+            <mxPoint x="160" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xWmAYFpe4VVVlx3Cu_2-5" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endSize=12;" edge="1" parent="1" source="0xWmAYFpe4VVVlx3Cu_2-3" target="0xWmAYFpe4VVVlx3Cu_2-1">
+          <mxGeometry width="100" height="75" relative="1" as="geometry">
+            <mxPoint x="360" y="135" as="sourcePoint" />
+            <mxPoint x="460" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gd_UaRPiolaXSgCAQ8E8-1" value="&lt;b&gt;Figure 7.21 An example of a realization Dependency&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="160" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
