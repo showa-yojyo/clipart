@@ -1,0 +1,57 @@
+<mxfile host="Electron" modified="2023-08-14T04:02:17.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="ZaEW8ebU1k7TO_1VQGXC" version="21.6.8" type="device" pages="2">
+  <diagram name="9.11" id="_L46w2gx4oW3CvAilgDi">
+    <mxGraphModel dx="880" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O6ueZTR4S2BsM5i2jakl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;" edge="1" parent="1" source="O6ueZTR4S2BsM5i2jakl-4" target="O6ueZTR4S2BsM5i2jakl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6ueZTR4S2BsM5i2jakl-2" value="&lt;b&gt;ClassA&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="O6ueZTR4S2BsM5i2jakl-3" value="name: String&lt;br&gt;shape: Rectangle&lt;br&gt;+size: Integer[0..1]&lt;br&gt;/area: Integer {readOnly}&lt;br&gt;height: Integer = 5&lt;br&gt;width: Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="O6ueZTR4S2BsM5i2jakl-2">
+          <mxGeometry y="30" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="O6ueZTR4S2BsM5i2jakl-4" value="&lt;b&gt;ClassB&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="200" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="O6ueZTR4S2BsM5i2jakl-5" value="id {redefines name}&lt;br&gt;shape: Square&lt;br&gt;^+size: Integer[0..1]&lt;br&gt;height: Integer = 7&lt;br&gt;/width" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="O6ueZTR4S2BsM5i2jakl-4">
+          <mxGeometry y="30" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="O6ueZTR4S2BsM5i2jakl-6" value="&lt;b&gt;Figure 9.11 Examples of attributes&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="340" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mZzQMaphArFFGc9hM9Ef" name="9.12">
+    <mxGraphModel dx="880" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0aIS-Fi52kE4N8Uk3zfj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;endSize=12;" edge="1" parent="1" source="0aIS-Fi52kE4N8Uk3zfj-2" target="0aIS-Fi52kE4N8Uk3zfj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0aIS-Fi52kE4N8Uk3zfj-2" value="&lt;b&gt;Window&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0aIS-Fi52kE4N8Uk3zfj-3" value="&lt;b&gt;Area&lt;/b&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0aIS-Fi52kE4N8Uk3zfj-4" value="size" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="191" y="-4" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0aIS-Fi52kE4N8Uk3zfj-5" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="197" y="15" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0aIS-Fi52kE4N8Uk3zfj-6" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="10" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0aIS-Fi52kE4N8Uk3zfj-7" value="&lt;b&gt;Figure 9.12 Association-like notation for attributes&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="40" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
