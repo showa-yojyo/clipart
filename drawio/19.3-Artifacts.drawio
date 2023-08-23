@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2023-08-23T14:25:22.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="8MiVVMuSOefsPOyyDOa3" version="21.6.8" type="device" pages="2">
+  <diagram name="19.9" id="wHwe1ElfGKtGwpvfgeME">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VPCyyQ96dxnZvewtCeFn-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="10" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VPCyyQ96dxnZvewtCeFn-3" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;Order.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="VPCyyQ96dxnZvewtCeFn-2">
+          <mxGeometry width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VPCyyQ96dxnZvewtCeFn-4" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="VPCyyQ96dxnZvewtCeFn-2">
+          <mxGeometry x="94" y="4" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="VPCyyQ96dxnZvewtCeFn-5" value="&lt;b&gt;Figure 19.9 An Artifact instance&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D-OOIQ9wXR6We94_vwEN" name="19.10">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TPGkC4P9s-NUX3Gzz4jB-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="170" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPGkC4P9s-NUX3Gzz4jB-2" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;Order.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="TPGkC4P9s-NUX3Gzz4jB-1">
+          <mxGeometry width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPGkC4P9s-NUX3Gzz4jB-3" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="TPGkC4P9s-NUX3Gzz4jB-1">
+          <mxGeometry x="94" y="4" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="TPGkC4P9s-NUX3Gzz4jB-4" value="«component»&lt;br&gt;&lt;b&gt;Order&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPGkC4P9s-NUX3Gzz4jB-5" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="TPGkC4P9s-NUX3Gzz4jB-4">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPGkC4P9s-NUX3Gzz4jB-6" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=oval;endFill=0;endSize=8;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="39.5" as="sourcePoint" />
+            <mxPoint x="10" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPGkC4P9s-NUX3Gzz4jB-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endSize=8;verticalAlign=bottom;dashed=1;" edge="1" parent="1" source="TPGkC4P9s-NUX3Gzz4jB-2" target="TPGkC4P9s-NUX3Gzz4jB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPGkC4P9s-NUX3Gzz4jB-8" value="«manifest»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="TPGkC4P9s-NUX3Gzz4jB-7">
+          <mxGeometry x="-0.02" y="-1" relative="1" as="geometry">
+            <mxPoint x="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDL0b6HerRCyms_T3gk-1" value="&lt;b&gt;Figure 19.10 A Manifestation relationship between an Artifact and a Component&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="210" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
