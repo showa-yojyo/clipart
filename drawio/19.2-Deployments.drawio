@@ -1,0 +1,223 @@
+<mxfile host="Electron" modified="2023-08-23T14:04:32.710Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="GvyrwY-LMB5NmgZGtF2i" version="21.6.8" type="device" pages="6">
+  <diagram name="19.2" id="IxozW9hRP2mT86871DS1">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2yXQtISYqGkoYnl4BUPT-1" value="&lt;u&gt;&lt;b&gt;:AppServer1&lt;/b&gt;&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2yXQtISYqGkoYnl4BUPT-5" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;endFill=0;startArrow=none;startFill=0;endSize=8;verticalAlign=bottom;dashed=1;" edge="1" parent="1" source="2yXQtISYqGkoYnl4BUPT-3" target="2yXQtISYqGkoYnl4BUPT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2yXQtISYqGkoYnl4BUPT-3" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;ShoppingCart.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2yXQtISYqGkoYnl4BUPT-4" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;Order.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2yXQtISYqGkoYnl4BUPT-6" value="&lt;div&gt;&lt;b&gt;Figure 19.2 A visual representation of the deployment location of artifacts, including a dependency between&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;them, inside a DeployedTarget graphic.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="135" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NdXB8yZ9BdZrfvNTrr1n-1" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="126" y="64" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="NdXB8yZ9BdZrfvNTrr1n-2" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="386" y="64" width="10" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gguYB2vndOPR30-Nj2Ob" name="19.3">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OoPd9m3H866sBwOi5_Z4-1" value="&lt;u&gt;&lt;b&gt;:AppServer1&lt;/b&gt;&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XaUr5QyTKzkt19-tV3a9-1" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;endFill=0;startArrow=none;startFill=0;endSize=8;verticalAlign=bottom;dashed=1;entryX=1;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XaUr5QyTKzkt19-tV3a9-2" target="OoPd9m3H866sBwOi5_Z4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaUr5QyTKzkt19-tV3a9-5" value="«deploy»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="XaUr5QyTKzkt19-tV3a9-1">
+          <mxGeometry x="-0.0628" y="-3" relative="1" as="geometry">
+            <mxPoint x="-36" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaUr5QyTKzkt19-tV3a9-2" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;ShoppingCart.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XaUr5QyTKzkt19-tV3a9-3" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;Order.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XaUr5QyTKzkt19-tV3a9-4" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;endFill=0;startArrow=none;startFill=0;endSize=8;verticalAlign=bottom;dashed=1;entryX=1;entryY=0.325;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XaUr5QyTKzkt19-tV3a9-3" target="OoPd9m3H866sBwOi5_Z4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="130" as="sourcePoint" />
+            <mxPoint x="127" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaUr5QyTKzkt19-tV3a9-6" value="«deploy»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="XaUr5QyTKzkt19-tV3a9-4">
+          <mxGeometry x="-0.0656" relative="1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaUr5QyTKzkt19-tV3a9-7" value="&lt;div&gt;&lt;b&gt;Figure 19.3 Alternative deployment representation of using a dependency called «deploy» used when&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;DeployedArtifacts are visually outside their DeployedTarget graphics&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="155" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XLMP1S4vkps2fqM-YsXW-1" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="96" y="123" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="a3O87uVWys_JTk6rVLZc-1" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="306" y="123" width="10" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-1JfiHuFQ652u3Iyl3Wu" name="19.4">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M77OositdjyM9wwsEaAh-1" value="&lt;u&gt;&lt;b&gt;:AppServer1&lt;/b&gt;&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="M77OositdjyM9wwsEaAh-2" value="Order.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="1">
+          <mxGeometry y="40" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M77OositdjyM9wwsEaAh-3" value="ShoppingCart.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="1">
+          <mxGeometry y="60" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M77OositdjyM9wwsEaAh-4" value="Account.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="1">
+          <mxGeometry y="80" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M77OositdjyM9wwsEaAh-5" value="Product.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="1">
+          <mxGeometry y="100" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M77OositdjyM9wwsEaAh-6" value="BackOrder.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="1">
+          <mxGeometry y="120" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M77OositdjyM9wwsEaAh-7" value="Service.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="1">
+          <mxGeometry y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M77OositdjyM9wwsEaAh-8" value="&lt;b&gt;Figure 19.4 Textual list based representation of DeployedArtifacts.&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="170" width="370" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OecA6QPRmtA2vS_uoJ-L" name="19.5">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QXYRlsA3laeeMnN8lOc3-1" value="«deployment spec»&lt;br&gt;&lt;b&gt;Name&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QXYRlsA3laeeMnN8lOc3-2" value="execution: execKind&lt;br&gt;transaction: Boolean" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="QXYRlsA3laeeMnN8lOc3-1">
+          <mxGeometry y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QXYRlsA3laeeMnN8lOc3-3" value="«deployment spec»&lt;br&gt;&lt;b&gt;&lt;u&gt;Name&lt;/u&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="210" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QXYRlsA3laeeMnN8lOc3-4" value="execution: thread&lt;br&gt;transaction: true" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="QXYRlsA3laeeMnN8lOc3-3">
+          <mxGeometry y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QXYRlsA3laeeMnN8lOc3-5" value="&lt;div&gt;&lt;b&gt;Figure 19.5 DeploymentSpecification for an artifact. On the left, a type-level specification, and on the right, an&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;instance-level specification.&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="590" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ARckZ6Ip4H-bAis4OuDH" name="19.6">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JFr-vxMN5EuFc8W2omj0-1" value="&lt;u&gt;&lt;b&gt;:AppServer1&lt;/b&gt;&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry width="440" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="XsHxAoEEIxypKbaFoQ75-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="25" y="50" width="385" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XsHxAoEEIxypKbaFoQ75-5" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;ShoppintApp.ear&lt;/u&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;verticalAlign=top;" vertex="1" parent="XsHxAoEEIxypKbaFoQ75-7">
+          <mxGeometry width="385" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XsHxAoEEIxypKbaFoQ75-6" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="XsHxAoEEIxypKbaFoQ75-7">
+          <mxGeometry x="367" y="8" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="3SBFum3WGCL9he1E78h0-1" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;endFill=0;startArrow=none;startFill=0;endSize=8;verticalAlign=bottom;dashed=1;" edge="1" parent="1" source="3SBFum3WGCL9he1E78h0-2" target="3SBFum3WGCL9he1E78h0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsHxAoEEIxypKbaFoQ75-1" value="«deployment spec»&lt;br&gt;&lt;b&gt;&lt;u&gt;ShoppingAppdesc.xml&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XsHxAoEEIxypKbaFoQ75-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;endFill=0;verticalAlign=bottom;startArrow=none;startFill=0;endSize=8;dashed=1;" edge="1" parent="1" source="XsHxAoEEIxypKbaFoQ75-2" target="3SBFum3WGCL9he1E78h0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsHxAoEEIxypKbaFoQ75-2" value="«deployment spec»&lt;br&gt;&lt;b&gt;&lt;u&gt;Orderdesc.xml&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XsHxAoEEIxypKbaFoQ75-8" value="&lt;b&gt;Figure 19.6 DeploymentSpecifications related to the DeployedArtifacts that they parameterize.&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="240" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="opSe-zk1q0dqLsiLh9Mz-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="275" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3SBFum3WGCL9he1E78h0-3" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;Order.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="opSe-zk1q0dqLsiLh9Mz-1">
+          <mxGeometry width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o5wfca3HjM67s7h6AGAR-2" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="opSe-zk1q0dqLsiLh9Mz-1">
+          <mxGeometry x="94" y="4" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="opSe-zk1q0dqLsiLh9Mz-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3SBFum3WGCL9he1E78h0-2" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;ShoppingCart.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="opSe-zk1q0dqLsiLh9Mz-2">
+          <mxGeometry width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o5wfca3HjM67s7h6AGAR-3" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="opSe-zk1q0dqLsiLh9Mz-2">
+          <mxGeometry x="95" y="4" width="10" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LFTaMkxss5kG5MIVwrUf" name="19.7">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZzhPag3moD5PcqyNB0U7-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="10" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzhPag3moD5PcqyNB0U7-2" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;Order.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="ZzhPag3moD5PcqyNB0U7-1">
+          <mxGeometry width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzhPag3moD5PcqyNB0U7-3" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="ZzhPag3moD5PcqyNB0U7-1">
+          <mxGeometry x="94" y="4" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="5Apr9dKTNEdrCTpxvmtM-1" value="&lt;u&gt;&lt;b&gt;:AppServer&lt;/b&gt;&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PzPNsYtnS6A-x9XHEYwd-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;verticalAlign=bottom;startArrow=none;startFill=0;endSize=8;dashed=1;" edge="1" parent="1" source="PzPNsYtnS6A-x9XHEYwd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PzPNsYtnS6A-x9XHEYwd-1" value="«deployment spec»&lt;br&gt;&lt;b&gt;&lt;u&gt;Orderdesc.xml&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5Apr9dKTNEdrCTpxvmtM-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;endFill=0;startArrow=none;startFill=0;endSize=8;verticalAlign=bottom;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZzhPag3moD5PcqyNB0U7-2" target="5Apr9dKTNEdrCTpxvmtM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PzPNsYtnS6A-x9XHEYwd-3" value="«deploy»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="5Apr9dKTNEdrCTpxvmtM-4">
+          <mxGeometry x="-0.2727" y="2" relative="1" as="geometry">
+            <mxPoint x="-30" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OAnqL0hoAg1fq3-5SmLb-1" value="&lt;b&gt;Figure 19.7 A DeploymentSpecification for a DeployedArtifact.&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="230" width="350" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
