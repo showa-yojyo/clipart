@@ -1,0 +1,196 @@
+<mxfile host="Electron" modified="2023-08-23T14:37:21.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="aau80YroabVgt9WeI7Tv" version="21.6.8" type="device" pages="5">
+  <diagram name="19.12" id="Vvb6qGBr18lnm9JxMCSs">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LlOefiN-YPEPABoiedtt-1" value="«device»&lt;br&gt;&lt;u style=&quot;font-weight: bold;&quot;&gt;:AppServer&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry width="210" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="LlOefiN-YPEPABoiedtt-7" value="&lt;div&gt;&lt;b&gt;Figure 19.12 Notation for a Device containing an ExecutionEnvironment and connected to another Device by a&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;CommunicationPath link&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="260" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="60" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-2" value="«executionEnvironment»&lt;br&gt;&lt;u style=&quot;font-weight: bold;&quot;&gt;:J2EEServer&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="MDJ7FytXWFXH8Q4t_HQM-1">
+          <mxGeometry width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-3" value="Order.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="MDJ7FytXWFXH8Q4t_HQM-1">
+          <mxGeometry y="48" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-4" value="ShoppingCart.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="MDJ7FytXWFXH8Q4t_HQM-1">
+          <mxGeometry y="68" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-5" value="Account.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="MDJ7FytXWFXH8Q4t_HQM-1">
+          <mxGeometry y="88" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-6" value="Product.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="MDJ7FytXWFXH8Q4t_HQM-1">
+          <mxGeometry y="108" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-7" value="BackOrder.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="MDJ7FytXWFXH8Q4t_HQM-1">
+          <mxGeometry y="128" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-8" value="Service.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="MDJ7FytXWFXH8Q4t_HQM-1">
+          <mxGeometry y="148" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-17" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.454;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="120.02886002885998" as="sourcePoint" />
+            <mxPoint x="211.04999999999995" y="120.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="60" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-10" value="«device»&lt;br&gt;&lt;u style=&quot;font-weight: bold;&quot;&gt;:DBServer&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="MDJ7FytXWFXH8Q4t_HQM-18">
+          <mxGeometry width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-11" value="OrderSchema.ddl" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="MDJ7FytXWFXH8Q4t_HQM-18">
+          <mxGeometry y="48" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDJ7FytXWFXH8Q4t_HQM-12" value="ItemSchema.ddl" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="MDJ7FytXWFXH8Q4t_HQM-18">
+          <mxGeometry y="68" width="150" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qvPrwz6MUXoaGD0GTRY3" name="19.13">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B2t1oCQVn_s_cQu0gAfd-8" value="&lt;b&gt;Figure 19.13 Notation for a ExecutionEnvironment&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O4Im0Qfhjw_DYKS7QLWn-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="10" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="B2t1oCQVn_s_cQu0gAfd-1" value="«executionEnvironment»&lt;br&gt;&lt;u style=&quot;font-weight: bold;&quot;&gt;:J2EEServer&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="O4Im0Qfhjw_DYKS7QLWn-1">
+          <mxGeometry width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="B2t1oCQVn_s_cQu0gAfd-2" value="Order.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="O4Im0Qfhjw_DYKS7QLWn-1">
+          <mxGeometry y="48" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B2t1oCQVn_s_cQu0gAfd-3" value="ShoppingCart.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="O4Im0Qfhjw_DYKS7QLWn-1">
+          <mxGeometry y="68" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B2t1oCQVn_s_cQu0gAfd-4" value="Account.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="O4Im0Qfhjw_DYKS7QLWn-1">
+          <mxGeometry y="88" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B2t1oCQVn_s_cQu0gAfd-5" value="Product.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="O4Im0Qfhjw_DYKS7QLWn-1">
+          <mxGeometry y="108" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B2t1oCQVn_s_cQu0gAfd-6" value="BackOrder.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="O4Im0Qfhjw_DYKS7QLWn-1">
+          <mxGeometry y="128" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B2t1oCQVn_s_cQu0gAfd-7" value="Service.jar" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=none;align=left;spacingLeft=11;" vertex="1" parent="O4Im0Qfhjw_DYKS7QLWn-1">
+          <mxGeometry y="148" width="150" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6rGIXE5Vfs0C8mIv40Vm" name="19.14">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pYwfPya-6DVcmTmNrxUX-1" value="&lt;u&gt;&lt;b&gt;:AppServer&lt;/b&gt;&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pYwfPya-6DVcmTmNrxUX-2" value="&lt;b&gt;Figure 19.14 An instance of a Node&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="80" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Wp5l5Gstc55um9Z9hkIt" name="19.15">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vLuBpLW8euqO2l5fnqQP-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endSize=8;verticalAlign=bottom;dashed=1;" edge="1" parent="1" source="ROFvKnb3Twzra2rvB90P-1" target="HmaX_RuHIKtHNfxMV65z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLuBpLW8euqO2l5fnqQP-5" value="«deploy»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="vLuBpLW8euqO2l5fnqQP-2">
+          <mxGeometry x="-0.1076" y="-2" relative="1" as="geometry">
+            <mxPoint x="-34" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLuBpLW8euqO2l5fnqQP-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;verticalAlign=bottom;startArrow=none;startFill=0;endSize=8;dashed=1;" edge="1" parent="1" source="vLuBpLW8euqO2l5fnqQP-6" target="HmaX_RuHIKtHNfxMV65z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLuBpLW8euqO2l5fnqQP-9" value="«deploy»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="vLuBpLW8euqO2l5fnqQP-8">
+          <mxGeometry x="-0.0151" y="-1" relative="1" as="geometry">
+            <mxPoint x="43" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmaX_RuHIKtHNfxMV65z-1" value="&lt;u&gt;&lt;b&gt;:AppServer&lt;/b&gt;&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="110" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HmaX_RuHIKtHNfxMV65z-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=30;exitDy=110;exitPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="HmaX_RuHIKtHNfxMV65z-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmaX_RuHIKtHNfxMV65z-4" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="HmaX_RuHIKtHNfxMV65z-3">
+          <mxGeometry x="-0.4222" y="1" relative="1" as="geometry">
+            <mxPoint x="12" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmaX_RuHIKtHNfxMV65z-5" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="HmaX_RuHIKtHNfxMV65z-3">
+          <mxGeometry x="0.6222" y="2" relative="1" as="geometry">
+            <mxPoint x="-7" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmaX_RuHIKtHNfxMV65z-2" value="&lt;u&gt;&lt;b&gt;:DBServer&lt;/b&gt;&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFvKnb3Twzra2rvB90P-1" value="&lt;b&gt;Order.jar&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="120" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vLuBpLW8euqO2l5fnqQP-1" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="106" y="124" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="vLuBpLW8euqO2l5fnqQP-6" value="&lt;b&gt;RequestHandler.jar&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vLuBpLW8euqO2l5fnqQP-7" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="296" y="124" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="vLuBpLW8euqO2l5fnqQP-10" value="&lt;b&gt;Figure 19.15 CommunicationPath between AppServer with deployed Artifacts and a DBServer.&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="510" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E_CmmADqDT0wCIJwm4Gi" name="19.16">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9J1fYFEh33SXshA7q7P2-1" value="&lt;u&gt;&lt;b&gt;:AppServer1&lt;/b&gt;&lt;/u&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9J1fYFEh33SXshA7q7P2-2" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;endFill=0;startArrow=none;startFill=0;endSize=8;verticalAlign=bottom;dashed=1;" edge="1" parent="1" source="9J1fYFEh33SXshA7q7P2-3" target="9J1fYFEh33SXshA7q7P2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J1fYFEh33SXshA7q7P2-3" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;ShoppingCart.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9J1fYFEh33SXshA7q7P2-4" value="«artifact»&lt;br&gt;&lt;b&gt;&lt;u&gt;Order.jar&lt;/u&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9J1fYFEh33SXshA7q7P2-6" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="126" y="64" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9J1fYFEh33SXshA7q7P2-7" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="386" y="64" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9J1fYFEh33SXshA7q7P2-8" value="&lt;b&gt;Figure 19.16 Deployed component Artifacts on a Node.&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="140" width="310" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
