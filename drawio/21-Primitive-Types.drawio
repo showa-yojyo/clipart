@@ -1,0 +1,135 @@
+<mxfile host="Electron" modified="2023-08-24T04:04:37.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="iry3NOQDyiyEWM5LW4xq" version="21.6.8" type="device" pages="6">
+  <diagram name="21.1" id="5MfkDOdaDmJHBImtnqU0">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3vRANk3UsTUfS5sdE9On-1" value="«primitive»&lt;br&gt;&lt;b&gt;Integer&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=48;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vRANk3UsTUfS5sdE9On-2" value="«primitive»&lt;br&gt;&lt;b&gt;Boolean&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=48;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vRANk3UsTUfS5sdE9On-3" value="«primitive»&lt;br&gt;&lt;b&gt;String&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=48;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vRANk3UsTUfS5sdE9On-4" value="«primitive»&lt;br&gt;&lt;b&gt;UnlimitedNarural&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=48;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vRANk3UsTUfS5sdE9On-5" value="«primitive»&lt;br&gt;&lt;b&gt;Real&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=48;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vRANk3UsTUfS5sdE9On-6" value="&lt;b&gt;Figure 21.1 Primitive Types&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Z_kKEAEbrIMQ3CAwo7-i" name="21.2">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="10ddETzPJrgb5Welz7YM-1" value="&lt;b&gt;Magazine&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="10ddETzPJrgb5Welz7YM-2" value="pages: Integer = 64" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="10ddETzPJrgb5Welz7YM-1">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="10ddETzPJrgb5Welz7YM-3" value="&lt;b&gt;Figure 21.2 An Integer used as a type for an attribute, with a default value&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="410" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="F-lPlTPLXT7OqnmxtAdN" name="21.3">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MEU5hagc4pBp9mbypLs6-1" value="&lt;b&gt;Car&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MEU5hagc4pBp9mbypLs6-2" value="isAutomatic: Boolean = true" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="MEU5hagc4pBp9mbypLs6-1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MEU5hagc4pBp9mbypLs6-3" value="&lt;b&gt;Figure 21.3 A Boolean used as a type for an attribute, with a default value&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="410" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KxKxiyWesTy0DejJEuMW" name="21.4">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hZ70RuGqRnZaXVC34psK-1" value="&lt;b&gt;Book&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZ70RuGqRnZaXVC34psK-2" value="author: String = &quot;Joe&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="hZ70RuGqRnZaXVC34psK-1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hZ70RuGqRnZaXVC34psK-3" value="&lt;b&gt;Figure 21.4 A String used as a type for an attribute, with a default value&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="390" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Qz96pc-qVsgHY_54LTRE" name="21.5">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kL4An2NTqEYM2JvQvf7d-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=openThin;endFill=0;endSize=12;" edge="1" parent="1" source="kL4An2NTqEYM2JvQvf7d-1" target="kL4An2NTqEYM2JvQvf7d-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kL4An2NTqEYM2JvQvf7d-7" value="student" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="kL4An2NTqEYM2JvQvf7d-6">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint x="23" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kL4An2NTqEYM2JvQvf7d-8" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="kL4An2NTqEYM2JvQvf7d-6">
+          <mxGeometry x="0.2" y="-3" relative="1" as="geometry">
+            <mxPoint x="25" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kL4An2NTqEYM2JvQvf7d-1" value="Teacher" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kL4An2NTqEYM2JvQvf7d-5" value="Student" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kL4An2NTqEYM2JvQvf7d-9" value="&lt;b&gt;Figure 21.5 An UnlimitedNatural used as an upper bound for a multiplicity&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="40" width="410" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e6ktpNGosTGhbxtXa8jI" name="21.6">
+    <mxGraphModel dx="880" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qCE1iC76edLnaT-IWUqD-1" value="&lt;b&gt;Point&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="140" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="qCE1iC76edLnaT-IWUqD-3" value="+x : Real" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="qCE1iC76edLnaT-IWUqD-1">
+          <mxGeometry y="30" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qCE1iC76edLnaT-IWUqD-4" value="+y : Real" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="qCE1iC76edLnaT-IWUqD-1">
+          <mxGeometry y="50" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qCE1iC76edLnaT-IWUqD-5" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="qCE1iC76edLnaT-IWUqD-1">
+          <mxGeometry y="70" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qCE1iC76edLnaT-IWUqD-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;html=1;" vertex="1" parent="qCE1iC76edLnaT-IWUqD-1">
+          <mxGeometry y="90" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qCE1iC76edLnaT-IWUqD-9" value="&lt;b&gt;Figure 21.6 Two attributes with type Real&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="108" width="240" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
